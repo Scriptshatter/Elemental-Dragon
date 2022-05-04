@@ -1,0 +1,144 @@
+{
+    "type": "origins:multiple",
+    "villagers_price_up": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[advancements={dragon:base_skills/dark=true}] UUID",
+                    "permission_level": 2
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/dark"
+        }
+    },
+    
+    "iron_golem_auto_mad": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p[advancements={dragon:base_skills/dark=true}] UUID",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
+                    "permission_level": 2
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/dark"
+        }
+    },
+    
+    "iron_golem_remove_anger": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
+                    "permission_level": 2
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/dark"
+        }
+    },
+    "wings": {
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/dark"
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "night_vision": {
+        "type": "origins:night_vision",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/dark"
+        }
+    },
+    "bad_day": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:base_skills/dark"
+                },
+                {
+                    "type": "origins:daytime"
+                },
+                {
+                    "type": "origins:exposed_to_sky"
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "addition",
+                "value": -8
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": -0.045
+            }
+        ],
+        "tick_rate": 5
+    },
+    "no_see": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:base_skills/dark"
+                },
+                {
+                    "type": "origins:daytime"
+                },
+                {
+                    "type": "origins:exposed_to_sky"
+                }
+            ]
+        },
+        "type": "origins:overlay",
+        "draw_mode": "texture",
+        "draw_phase": "above_hud",
+        "visible_in_third_person": true,
+        "hide_with_hud": false,
+        "texture": "minecraft:textures/misc/white.png"
+    },
+    "hidden": true
+}

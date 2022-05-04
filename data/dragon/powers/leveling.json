@@ -1,0 +1,42 @@
+{
+    "type": "origins:multiple",
+    "exp_from_rock":{
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dragon:exp_exp",
+            "change": 1
+        }
+    },
+    "save_health":{
+        "type": "origins:action_on_hit",
+        "bientity_action":{
+            "type": "origins:and",
+            "actions":[
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function dragon:target_entity"
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute store result score @s enemy_health run attribute @e[limit=1,tag=target,distance=..60,sort=nearest] generic.max_health get"
+                    }
+                }
+            ]
+        }
+    },
+    "exp_on_kill":{
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "resource operation @s dragon:exp_exp += @s enemy_health"
+        },
+        "cooldown": 1
+    },
+    "hidden": true
+}

@@ -1,0 +1,54 @@
+{
+    "type": "origins:multiple",
+    "night_vision": {
+        "type": "origins:night_vision",
+        "strength": 0.5,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/earth"
+        }
+    },
+    "dont_touch_me_im_a_miner": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/earth"
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
+    },
+    "underground": {
+        "condition":{
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[y=0,dy=60]",
+                    "comparison": "!=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:base_skills/earth"
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "addition",
+                "value": -4
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": -0.015
+            }
+        ],
+        "tick_rate": 5
+    },
+    "hidden": true
+}

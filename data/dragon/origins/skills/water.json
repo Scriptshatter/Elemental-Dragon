@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Water",
+    "description": "You have gills and wings that may carry you through the air if need be, but being above water bothers you. [50 Skill Points, Free first pick]"
+}

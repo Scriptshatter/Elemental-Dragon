@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:execute_command",
+                "command": "origin gui @s origins:layertwo"
+            },
+            {
+                
+                "type": "origins:revoke_power",
+                "power": "dragon:triggers/next",
+                "source": "dragon:skills/next"
+                
+            }
+        ]
+    },
+    "interval": 1,
+    "hidden": true
+}

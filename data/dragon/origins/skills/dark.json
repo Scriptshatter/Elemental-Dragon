@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Dark",
+    "description": "Villages see you as evil, and your eyes have accustomed to the night, but the light of day weakens you. You have wings that blaze through the night. [50 Skill Points, Free first pick]"
+}

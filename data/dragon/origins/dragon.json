@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "dragon:leveling",
+        "dragon:exp",
+        "dragon:skills/fire",
+        "dragon:skills/air",
+        "dragon:skills/dark",
+        "dragon:skills/earth",
+        "dragon:skills/light",
+        "dragon:skills/water",
+        "dragon:bring_up_menu"
+    ],
+    "icon": "minecraft:dragon_head",
+    "order": 3,
+    "impact": 3,
+    "name": "Dragon",
+    "description": "You are a dragon, and you may choose your path. Get exp by killing your enemies, or mining blocks. and skills you get may be seen on your skill tree, displayed in the advancements menu.",
+    "unchoosable": true
+}

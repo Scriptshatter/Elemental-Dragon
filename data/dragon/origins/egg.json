@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:egg"
+    ],
+    "icon": "minecraft:dragon_egg",
+    "order": 3,
+    "impact": 3,
+    "name": "Dragon egg",
+    "description": "An unknown type of dragon ready to hatch..."
+}

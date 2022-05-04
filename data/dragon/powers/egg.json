@@ -1,0 +1,153 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "y7h6gtugj"
+        }
+    },
+    "play_compress_sfx": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sprinting"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:egg_toggle",
+                    "inverted": true
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:toggle",
+                    "power": "*:egg_toggle"
+                }
+            ]
+        },
+        "interval": 1
+    },
+    "roll": {
+        "type":"origins:action_over_time",
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local_horizontal_normalized",
+            "z": 0.5
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:power_active",
+                    "power": "*:egg_toggle"
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0,
+                    "offset_y": -0.1,
+                    "offset_z": 0
+                }
+            ]
+        },
+        "interval": 1
+    },
+    "play_decompress_sfx": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_y": 0,
+                            "offset_z": 0
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0,
+                            "offset_y": 0,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_y": 0,
+                            "offset_z": 0
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0,
+                            "offset_y": 0,
+                            "offset_z": -0.1
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:egg_toggle"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:toggle",
+                    "power": "*:egg_toggle"
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "space": "local",
+                    "z": -1,
+                    "y": 0.3
+                }
+            ]
+        },
+        "interval": 1
+    },
+    "hidden": true,
+    "disable_move":{
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "value": -10,
+                "operation": "addition"
+            },
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": -10,
+                "operation": "addition"
+            }
+        ]
+    },
+    "no_jump":{
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": -10
+        }
+    },
+    "modify_size": {
+        "type": "extraorigins:modify_size",
+        "scale": 0.5
+    },
+    "first_skill": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function dragon:firstskill"
+        }
+    },
+    "name": "Rollin",
+    "description": "Sprint to roll! Fall off a surface to open a crack to hatch from!"
+}

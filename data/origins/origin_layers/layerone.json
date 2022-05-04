@@ -1,0 +1,185 @@
+{
+    "name": "Base Element",
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/water",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/water"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/fire",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/air",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/air"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/earth",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/earth"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/light",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/light"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 50
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:base_skills/dark",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/dark"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/next"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/none"
+            ]
+        }
+    ],
+    "hidden": true,
+    "auto_choose": true
+}

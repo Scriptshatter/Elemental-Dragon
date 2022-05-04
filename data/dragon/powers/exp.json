@@ -1,0 +1,62 @@
+{
+    "type": "origins:multiple",
+    "exp": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1000,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 1
+        },
+        "max_action":{
+            "type": "origins:if_else",
+                "condition":{
+                    "type": "origins:resource",
+                    "resource": "dragon:exp_level",
+                    "comparison": ">=",
+                    "compare_to": 500
+                },
+                "if_action":{
+                    "type": "origins:nothing"
+                },
+                "else_action":{
+                    "type": "origins:and",
+                    "actions":[
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "dragon:exp_skill_points",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "dragon:exp_level",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "dragon:exp_exp",
+                            "change": -1000
+                        }
+                    ]
+                }
+        }
+    },
+    "skill_points":{
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100000,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "level": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 500,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "hidden": true
+}

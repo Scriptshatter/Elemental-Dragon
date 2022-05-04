@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:execute_command",
+                "command": "function dragon:triggers/fire"
+            },
+            {
+                
+                "type": "origins:revoke_power",
+                "power": "dragon:triggers/fire",
+                "source": "dragon:skills/fire"
+                
+            }
+        ]
+    },
+    "interval": 1,
+    "hidden": true
+}

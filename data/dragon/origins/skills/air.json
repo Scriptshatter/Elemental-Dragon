@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/air"
+    ],
+    "icon": "minecraft:glass_pane",
+    "order": 3,
+    "impact": 3,
+    "name": "Air",
+    "description": "You can make any fall a safe one, and have wings that carry you through the air, but you cannot stand having something over your head. [50 Skill Points, Free first pick]"
+}

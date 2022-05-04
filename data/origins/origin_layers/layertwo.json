@@ -1,0 +1,35 @@
+{
+    "name": "Tier 1 skill",
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/none"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:more_skills/previous"
+            ]
+        }
+    ],
+    "hidden": true,
+    "auto_choose": true
+}

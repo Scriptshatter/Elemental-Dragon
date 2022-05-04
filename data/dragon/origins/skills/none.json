@@ -1,0 +1,10 @@
+{
+    "powers": [
+        
+    ],
+    "icon": "minecraft:barrier",
+    "order": 3,
+    "impact": 3,
+    "name": "Close",
+    "description": "Close the menu"
+}

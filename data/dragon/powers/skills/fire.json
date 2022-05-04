@@ -1,0 +1,46 @@
+{
+    "type": "origins:multiple",
+    "fire_immune": {
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/fire"
+        },
+        "type": "origins:fire_immunity"
+    },
+    "wings": {
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:base_skills/fire"
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "water_weakness": {
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:base_skills/fire"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 10,
+        "type": "origins:action_over_time",
+        "entity_action":{
+            "type": "origins:damage",
+            "amount": 4,
+            "source": {
+                "name": "freeze",
+                "bypasses_armor": true
+            }
+        }
+    },
+    "hidden": true
+}
