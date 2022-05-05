@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Webbed feet",
+    "description": "Your feet are now webbed, and you can swim faster! However, you are now flammable. [10 Skill Points]"
+}

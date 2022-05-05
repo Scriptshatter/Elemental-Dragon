@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Hammer claws"
+        },
+        "description": {
+            "text": "Your claws are so heavy, they're almost like hammers! Your claws also become more powerful underground! However, you cannot swim. [15 Skill Points]"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_two/earth"
+}

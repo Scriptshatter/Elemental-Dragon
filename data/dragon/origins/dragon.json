@@ -3,13 +3,15 @@
         "dragon:leveling",
         "dragon:exp",
         "dragon:bring_up_menu",
+        "dragon:clear_skills",
         "dragon:skills/base/fire",
         "dragon:skills/base/air",
         "dragon:skills/base/dark",
         "dragon:skills/base/earth",
         "dragon:skills/base/light",
         "dragon:skills/base/water",
-        "dragon:skills/layer_one/stat_changes"
+        "dragon:skills/layer_one/stat_changes",
+        "dragon:skills/layer_two/stat_changes"
         
     ],
     "icon": "minecraft:dragon_head",

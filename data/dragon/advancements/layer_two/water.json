@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Water dexterity"
+        },
+        "description": {
+            "text": "Your dexterity in water has increased, leading you to aim for an enemies weakpoint more often. [5 SP]",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_one/water"
+}

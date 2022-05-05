@@ -1,5 +1,7 @@
 {
-    "name": "Tier 1 skill",
+    "name": "Tier 3 skill",
+    "hidden": true,
+    "auto_choose": true,
     "origins": [
         {
             "condition": {
@@ -13,21 +15,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 10
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/air",
+                        "advancement": "dragon:layer_three/air",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/air"
+                        "advancement": "dragon:layer_two/air"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/air"
+                "dragon:skills/layer_three/air"
             ]
         },
         {
@@ -42,21 +44,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 10
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/dark",
+                        "advancement": "dragon:layer_three/dark",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/dark"
+                        "advancement": "dragon:layer_two/dark"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/dark"
+                "dragon:skills/layer_three/dark"
             ]
         },
         {
@@ -71,21 +73,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 15
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/earth",
+                        "advancement": "dragon:layer_three/earth",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/earth"
+                        "advancement": "dragon:layer_two/earth"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/earth"
+                "dragon:skills/layer_three/earth"
             ]
         },
         {
@@ -100,21 +102,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 10
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/fire",
+                        "advancement": "dragon:layer_three/fire",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/fire"
+                        "advancement": "dragon:layer_two/fire"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/fire"
+                "dragon:skills/layer_three/fire"
             ]
         },
         {
@@ -129,21 +131,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 15
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/light",
+                        "advancement": "dragon:layer_three/light",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/light"
+                        "advancement": "dragon:layer_two/light"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/light"
+                "dragon:skills/layer_three/light"
             ]
         },
         {
@@ -158,21 +160,21 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 1
+                        "compare_to": 10
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_one/water",
+                        "advancement": "dragon:layer_three/water",
                         "inverted": true
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:base_skills/water"
+                        "advancement": "dragon:layer_two/water"
                     }
                 ]
             },
             "origins": [
-                "dragon:skills/layer_one/water"
+                "dragon:skills/layer_three/water"
             ]
         },
         {
@@ -186,7 +188,7 @@
                 ]
             },
             "origins": [
-                "dragon:transitions/layer_one/previous"
+                "dragon:transitions/layer_three/previous"
             ]
         },
         {
@@ -202,8 +204,35 @@
             "origins": [
                 "dragon:none"
             ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
         }
-    ],
-    "hidden": true,
-    "auto_choose": true
+    ]
 }

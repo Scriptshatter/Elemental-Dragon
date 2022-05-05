@@ -5,6 +5,6 @@
     "icon": "minecraft:dirt",
     "order": 3,
     "impact": 3,
-    "name": "More defense",
-    "description": "Your scales harden, giving you more defense. [1 SP]"
+    "name": "Hardened scales",
+    "description": "Your scales harden, giving you more defense. [1 Skill Point]"
 }

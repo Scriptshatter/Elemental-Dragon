@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Weightless",
+    "description": "Your bones are now hollow, causing you to float. However, this also makes you vulnerable to arrows. [10 Skill Points]"
+}

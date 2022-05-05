@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Complete darkness",
+    "description": "Your soul is now consumed by darkness, making you undead, and immune to most poisons. [10 Skill Points]"
+}

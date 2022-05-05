@@ -5,6 +5,6 @@
     "icon": "minecraft:water_bucket",
     "order": 3,
     "impact": 3,
-    "name": "Higher swim speed",
-    "description": "You grow more adept at swimming, able to swim faster. [1 SP]"
+    "name": "Webbed claws",
+    "description": "You grow more adept at swimming, able to swim faster. [1 Skill Point]"
 }

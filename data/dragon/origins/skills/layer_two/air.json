@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_two/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Breezy scales",
+    "description": "At the cost of durability, your scales have become lighter, making it easier to move [5 Skill Points]"
+}

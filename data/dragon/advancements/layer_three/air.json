@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Weightless"
+        },
+        "description": {
+            "text": "Your bones are now hollow, causing you to float. However, this also makes you vulnerable to arrows. [10 Skill Points]"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_two/air"
+}

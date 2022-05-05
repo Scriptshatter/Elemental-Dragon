@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Condensed light"
+        },
+        "description": {
+            "text": "The light in you has become more dense, making you shrink. The villagers find this rather adorable, and give you better deals. [5 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_one/light"
+}

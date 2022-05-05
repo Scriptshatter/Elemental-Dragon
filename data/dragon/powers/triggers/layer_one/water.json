@@ -8,9 +8,8 @@
                 "command": "function dragon:triggers/layer_one/water"
             },
             {
-                "type": "origins:revoke_power",
-                "power": "dragon:triggers/layer_one/water",
-                "source": "dragon:skills/layer_one/water"
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:layer_one dragon:none"
             }
         ]
     },

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Fiery spirit",
+    "description": "Your spirit has become a blazing fire, allowing you to light enemies on fire. However, cold biomes dont seem to agree with your fiery soul. [10 Skill Points]"
+}

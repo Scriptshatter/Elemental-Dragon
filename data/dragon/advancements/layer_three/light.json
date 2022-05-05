@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Beacon of light"
+        },
+        "description": {
+            "text": "You are a beacon of light, and can take down any undead mob. However, the darkness of the wither hurts you even more. [15 Skill Points]"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_two/light"
+}

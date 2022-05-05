@@ -8,9 +8,8 @@
                 "command": "function dragon:triggers/layer_one/fire"
             },
             {
-                "type": "origins:revoke_power",
-                "power": "dragon:triggers/layer_one/fire",
-                "source": "dragon:skills/layer_one/fire"
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:layer_one dragon:none"
             }
         ]
     },

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_two/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Water dexterity",
+    "description": "Your dexterity in water has increased, leading you to aim for an enemies weakpoint more often. [5 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Hammer claws",
+    "description": "Your claws are so heavy, they're almost like hammers! Your claws also become more powerful underground! However, you cannot swim. [15 Skill Points]"
+}

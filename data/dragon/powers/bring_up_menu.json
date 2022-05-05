@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "origin gui @s origins:layerone"
+        "command": "origin gui @s origins:base"
     },
     "name": "Skills menu",
     "description": "Press primary to bring up the skills menu! This is where you can learn new skills and abilities with skill points. Currently, if you do not have enough skill points, nothing will happen. this will change in the future."

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Fiery heart"
+        },
+        "description": {
+            "text": "The fire in your heart burns brighter, allowing you to attack faster, however your scales have moved slight apart to allow this, lowering your defense. [5 SP]",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_one/fire"
+}

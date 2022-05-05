@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_two/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Fiery heart",
+    "description": "The fire in your heart burns brighter, allowing you to attack faster, however your scales have moved slight apart to allow this, lowering your defense. [5 Skill Points]"
+}

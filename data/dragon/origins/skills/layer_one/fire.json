@@ -5,6 +5,6 @@
     "icon": "minecraft:blaze_powder",
     "order": 3,
     "impact": 3,
-    "name": "More attack",
-    "description": "The fire inside you burns brighter, giving you more attack [1 SP]"
+    "name": "Burning fire",
+    "description": "The fire inside you burns brighter, giving you more attack [1 Skill Point]"
 }

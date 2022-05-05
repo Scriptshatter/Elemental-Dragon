@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_two/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Heavy claws",
+    "description": "You become heavier, making it easier to smash rocks. However, this also makes you slower. [5 Skill Points]"
+}

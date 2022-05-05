@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_three/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Beacon of light",
+    "description": "You are a beacon of light, and can take down any undead mob. However, the darkness of the wither hurts you even more. [15 Skill Points]"
+}

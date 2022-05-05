@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:execute_command",
+                "command": "origin gui @s origins:layer_three"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:layer_two dragon:none"
+            }
+        ]
+    },
+    "interval": 1,
+    "hidden": true
+}

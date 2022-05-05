@@ -8,9 +8,8 @@
                 "command": "function dragon:triggers/base/light"
             },
             {
-                "type": "origins:revoke_power",
-                "power": "dragon:triggers/base/light",
-                "source": "dragon:skills/base/light"
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:base dragon:none"
             }
         ]
     },

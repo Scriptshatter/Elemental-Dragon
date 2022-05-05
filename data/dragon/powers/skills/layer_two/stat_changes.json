@@ -1,0 +1,127 @@
+{
+    "type": "origins:multiple",
+    "air": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/air"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.02
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "operation": "addition",
+                "value": -2
+            }
+        ]
+    },
+    "dark_atk": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/dark"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 0.5
+        }
+    },
+    "dark_size": {
+        "type": "extraorigins:modify_size",
+        "scale": 1.2,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/dark"
+        }
+    },
+    "earth_speed": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/earth"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.01
+        }
+    },
+    "earth_dig_speed": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/earth"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.01
+        }
+    },
+    "fire": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/fire"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "operation": "addition",
+                "value": -2
+            }
+        ]
+    },
+    "light_size": {
+        "type": "extraorigins:modify_size",
+        "scale": 0.8,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/light"
+        }
+    },
+    "light_villager": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'minor_positive',Value:35}]}",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[advancements={dragon:layer_two/light=true}] UUID",
+                    "permission_level": 2
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/light"
+        }
+    },
+    "water": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/water"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 0.5
+        }
+    }
+}

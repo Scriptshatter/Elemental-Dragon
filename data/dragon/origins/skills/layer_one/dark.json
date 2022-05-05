@@ -5,6 +5,6 @@
     "icon": "minecraft:black_concrete",
     "order": 3,
     "impact": 3,
-    "name": "More attack",
-    "description": "The darkness grants you more power [1 SP]"
+    "name": "Growing darkness",
+    "description": "The darkness grants you more power [1 Skill Point]"
 }

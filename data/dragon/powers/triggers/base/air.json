@@ -8,9 +8,8 @@
                 "command": "function dragon:triggers/base/air"
             },
             {
-                "type": "origins:revoke_power",
-                "power": "dragon:triggers/base/air",
-                "source": "dragon:skills/base/air"
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:base dragon:none"
             }
         ]
     },

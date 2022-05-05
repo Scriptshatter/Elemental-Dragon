@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_two/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Condensed light",
+    "description": "The light in you has become more dense, making you shrink. The villagers find this rather adorable, and give you better deals. [5 Skill Points]"
+}

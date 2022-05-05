@@ -5,14 +5,11 @@
         "actions":[
             {
                 "type": "origins:execute_command",
-                "command": "origin gui @s origins:layerone"
+                "command": "origin gui @s origins:base"
             },
             {
-                
-                "type": "origins:revoke_power",
-                "power": "dragon:transitions/layer_one/previous",
-                "source": "dragon:transitions/layer_one/previous"
-                
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:layer_one dragon:none"
             }
         ]
     },

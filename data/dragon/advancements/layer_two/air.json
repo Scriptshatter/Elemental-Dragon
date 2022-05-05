@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Breezy scales"
+        },
+        "description": {
+            "text": "At the cost of durability, your scales have become lighter, making it easier to move [5 SP]"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_one/air"
+}
