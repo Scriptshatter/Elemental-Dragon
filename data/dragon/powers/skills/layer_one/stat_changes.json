@@ -1,21 +1,73 @@
 {
     "type": "origins:multiple",
     "air": {
-
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/air"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.1
+        }
     },
     "dark": {
-
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/dark"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 0.5
+        }
     },
     "earth": {
-
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/earth"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 1
+        }
     },
     "fire": {
-
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/fire"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 0.5
+        }
     },
     "light": {
-
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/light"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.luck",
+            "operation": "addition",
+            "value": 5
+        }
     },
     "water": {
-
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_one/water"
+        },
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.005
+        }
     }
 }

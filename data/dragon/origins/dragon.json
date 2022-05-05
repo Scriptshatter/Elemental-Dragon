@@ -8,7 +8,8 @@
         "dragon:skills/base/dark",
         "dragon:skills/base/earth",
         "dragon:skills/base/light",
-        "dragon:skills/base/water"
+        "dragon:skills/base/water",
+        "dragon:skills/layer_one/stat_changes"
         
     ],
     "icon": "minecraft:dragon_head",
