@@ -2,13 +2,14 @@
     "powers": [
         "dragon:leveling",
         "dragon:exp",
-        "dragon:skills/fire",
-        "dragon:skills/air",
-        "dragon:skills/dark",
-        "dragon:skills/earth",
-        "dragon:skills/light",
-        "dragon:skills/water",
-        "dragon:bring_up_menu"
+        "dragon:bring_up_menu",
+        "dragon:skills/base/fire",
+        "dragon:skills/base/air",
+        "dragon:skills/base/dark",
+        "dragon:skills/base/earth",
+        "dragon:skills/base/light",
+        "dragon:skills/base/water"
+        
     ],
     "icon": "minecraft:dragon_head",
     "order": 3,

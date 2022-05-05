@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_one/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "More attack",
+    "description": "The fire inside you burns brighter, giving you more attack [1 SP]"
+}

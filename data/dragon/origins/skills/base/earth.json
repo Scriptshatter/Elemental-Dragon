@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/base/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Earth Element",
+    "description": "Your eyes have accustomed to the dark and your arms for digging, but being above the surface bothers you. [50 Skill Points, Free first pick]"
+}

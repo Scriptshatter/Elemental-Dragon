@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_one/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "More luck",
+    "description": "The light blesses you. [1 SP]"
+}

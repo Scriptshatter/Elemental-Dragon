@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:execute_command",
+                "command": "function dragon:triggers/base/earth"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "dragon:triggers/base/earth",
+                "source": "dragon:skills/base/earth"
+            }
+        ]
+    },
+    "interval": 1,
+    "hidden": true
+}

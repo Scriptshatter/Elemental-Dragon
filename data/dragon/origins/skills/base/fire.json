@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/base/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Fire Element",
+    "description": "Your are scales accustomed to fire, and blazing wings carry you through the sky like a ball of fire, but water feels as fire does to one without a resistance. [50 Skill Points, Free first pick]"
+}

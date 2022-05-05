@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:execute_command",
+                "command": "origin gui @s origins:layerone"
+            },
+            {
+                
+                "type": "origins:revoke_power",
+                "power": "dragon:transitions/layer_one/previous",
+                "source": "dragon:transitions/layer_one/previous"
+                
+            }
+        ]
+    },
+    "interval": 1,
+    "hidden": true
+}

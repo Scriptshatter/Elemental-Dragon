@@ -9,26 +9,32 @@
         }
     },
     "save_health":{
-        "type": "origins:action_on_hit",
-        "bientity_action":{
-            "type": "origins:and",
-            "actions":[
-                {
-                    "type": "origins:target_action",
-                    "action": {
-                        "type": "origins:execute_command",
-                        "command": "function dragon:target_entity"
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "block": false,
+            "type": "origins:raycast",
+            "distance": 500,
+            "bientity_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:actor_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "execute store result score @s enemy_health run attribute @e[limit=1,tag=dragon_origin_target,distance=..60,sort=nearest] generic.max_health get"
+                        }
+                    },
+                    {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:target_entity"
+                        }
                     }
-                },
-                {
-                    "type": "origins:actor_action",
-                    "action": {
-                        "type": "origins:execute_command",
-                        "command": "execute store result score @s enemy_health run attribute @e[limit=1,tag=target,distance=..60,sort=nearest] generic.max_health get"
-                    }
-                }
-            ]
-        }
+                ]
+            }
+        },
+        "interval": 1
     },
     "exp_on_kill":{
         "type": "origins:self_action_on_kill",

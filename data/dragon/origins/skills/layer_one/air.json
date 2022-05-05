@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_one/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Higher jump",
+    "description": "Your wings improve, giving you more jump height [1 SP]"
+}

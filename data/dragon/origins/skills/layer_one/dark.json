@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_one/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "More attack",
+    "description": "The darkness grants you more power [1 SP]"
+}
