@@ -1,0 +1,37 @@
+{
+    "type": "origins:multiple",
+    "float": {
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.03,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/air"
+        }
+    },
+    "more_arrow_dmg": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/air"
+        },
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions":[
+                {
+                    "type": "origins:projectile",
+                    "projectile": "minecraft:arrow"
+                },
+                {
+                    "type": "origins:projectile",
+                    "projectile": "minecraft:spectral_arrow"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "hidden": true
+}

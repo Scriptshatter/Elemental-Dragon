@@ -10,8 +10,18 @@
     },
     "no_fall_dmg":{
         "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/air"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:base_skills/air"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_three/air",
+                    "inverted": true
+                }
+            ]
         },
         "type": "origins:modify_falling",
         "take_fall_damage": false,

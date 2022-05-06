@@ -1,0 +1,48 @@
+{
+    "type": "origins:multiple",
+    "faster_swim":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "additionalentityattributes:water_speed",
+            "operation": "addition",
+            "value": 0.01
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/water"
+        }
+    },
+    "bad_fire":{
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/water"
+        },
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "addition",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "onFire"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "onFire.player"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "inFire"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "inFire.player"
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

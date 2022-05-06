@@ -1,0 +1,61 @@
+{
+    "type": "origins:multiple",
+    "effective_against_undead":{
+        "type": "origins:modify_damage_dealt",
+        "condition":{
+            "type":"origins:advancement",
+            "advancement":"dragon:layer_three/light"
+        },
+        "target_condition":{
+            "type": "origins:entity_group",
+            "group": "undead"
+        },
+        "modifier":{
+            "operation": "addition",
+            "value": 5.0
+        }
+    },
+    "bad_wither": {
+        "type": "origins:modify_damage_taken",
+        "condition":{
+            "type":"origins:advancement",
+            "advancement":"dragon:layer_three/light"
+        },
+        "damage_condition":{
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "wither"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "wither.player"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "witherSkull"
+                },
+                {
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:wither_skeleton"
+                    }
+                },
+                {
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:wither"
+                    }
+                }
+            ]
+        },
+        "modifier":{
+            "operation": "addition",
+            "value": 5.0
+        }
+    },
+    "hidden": true
+}

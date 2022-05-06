@@ -1,0 +1,123 @@
+{
+    "type": "origins:multiple",
+    "break_with_fist":{
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:mineable/pickaxe"
+        },
+        "condition":{
+            "type":"origins:advancement",
+            "advancement":"dragon:layer_three/earth"
+        },
+        "type": "origins:modify_harvest",
+        "allow": true
+    },
+    "faster_mining": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/earth"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.01
+        }
+    },
+    "underground_claws": {
+        "condition":{
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[y=0,dy=60]",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_three/earth"
+                }
+            ]
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 2
+        },
+        "tick_rate": 5
+    },
+    "no_swim": {
+        "type": "origins:ignore_water",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/earth"
+        }
+    },
+    "slower_mining_underwater":{
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_three/earth"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.7
+        }
+    },
+    "slower_underwater":{
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_three/earth"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.06
+        }
+    },
+    "floaty_jump_underwater":{
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_three/earth"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.01
+    },
+    "hidden": true
+}

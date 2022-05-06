@@ -1,0 +1,48 @@
+{
+    "type": "origins:multiple",
+    "fiah_pawnch":{
+        "condition":{
+            "type":"origins:advancement",
+            "advancement":"dragon:layer_three/fire"
+        },
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 3
+        },
+        "cooldown": 1
+    },
+    "no_cold_biome":{
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "type":"origins:biome",
+                    "condition":{
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.3
+                    }
+                },
+                {
+                    "type":"origins:advancement",
+                    "advancement":"dragon:layer_three/fire"
+                }
+            ]
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "addition",
+                "value": -8
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": -0.045
+            }
+        ],
+        "type": "origins:conditioned_attribute"
+    },
+    "hidden": true
+}
