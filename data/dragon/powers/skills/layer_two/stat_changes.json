@@ -32,8 +32,12 @@
         }
     },
     "dark_size": {
-        "type": "extraorigins:modify_size",
-        "scale": 1.2,
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 1.2 @s"
+        },
+        "interval": 20,
         "condition": {
             "type": "origins:advancement",
             "advancement": "dragon:layer_two/dark"
