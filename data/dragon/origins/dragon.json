@@ -17,7 +17,9 @@
         "dragon:skills/layer_three/earth",
         "dragon:skills/layer_three/fire",
         "dragon:skills/layer_three/light",
-        "dragon:skills/layer_three/water"
+        "dragon:skills/layer_three/water",
+        "dragon:skills/layer_four/op_one",
+        "dragon:skills/layer_four/op_two"
     ],
     "icon": "minecraft:dragon_head",
     "order": 3,

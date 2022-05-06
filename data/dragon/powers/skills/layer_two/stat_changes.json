@@ -115,8 +115,19 @@
     "water": {
         "type": "origins:conditioned_attribute",
         "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_two/water"
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/water"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
         },
         "modifier": {
             "attribute": "minecraft:generic.attack_damage",

@@ -43,8 +43,7 @@
             "attribute": "minecraft:generic.luck",
             "operation": "addition",
             "value": 10
-        },
-        "tick_rate": 5
+        }
     },
     "wings": {
         "condition": {

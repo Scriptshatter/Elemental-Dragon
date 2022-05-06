@@ -1,0 +1,97 @@
+{
+    "type": "origins:multiple",
+    "fire": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:add_velocity",
+            "z": 0.5
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_four/op_two/fire"
+        }
+    },
+    "water": {
+        "condition": {
+            "type": "origins:and",
+            "conditions":[
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_four/op_two/water"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
+    },
+    "earth": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_four/op_two/earth"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "addition",
+                "value": 0.2
+            },
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": 4
+            }
+        ]
+    },
+    "air": {
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_four/op_two/air"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.1
+        }
+    },
+    "dark": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_four/op_two/dark"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.luck",
+                "operation": "addition",
+                "value": -5
+            },
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 1
+            }
+        ]
+    },
+    "light": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_four/op_two/light"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4
+        }
+    }
+}
