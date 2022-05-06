@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Breezy scales"
+            "text": "Creeping greed"
         },
         "description": {
-            "text": "At the cost of durability, your scales have become lighter, making it easier to move [5 SP]",
-            "color": "white"
+            "text": "You start to become more greedy, attempting to find valuable gems and resources wherever possible. [5 SP]",
+            "color": "gray"
         },
         "icon": {
-            "item": "minecraft:feather"
+            "item": "minecraft:dirt"
         },
         "frame": "goal",
         "show_toast": true,
@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dragon:layer_one/air"
+    "parent": "dragon:layer_three/earth"
 }

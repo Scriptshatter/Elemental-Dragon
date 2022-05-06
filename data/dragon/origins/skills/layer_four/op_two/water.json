@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Finned arms",
+    "description": "Your arms now have fins on them, allowing you to mine faster underwater! [5 Skill Points]"
+}

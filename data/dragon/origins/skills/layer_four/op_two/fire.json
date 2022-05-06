@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Blazing arms",
+    "description": "Your arms have a blazing force making you more effective at fighting, giving you extra knockback. [5 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Feathered wings",
+    "description": "Your wings grow feathers, allowing you to jump higher! [5 Skill Points]"
+}

@@ -202,7 +202,7 @@
                 ]
             },
             "origins": [
-                "dragon:none"
+                "dragon:transitions/layer_three/next"
             ]
         },
         {

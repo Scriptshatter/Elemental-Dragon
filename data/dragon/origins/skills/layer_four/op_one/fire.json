@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_one/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Legs of fire",
+    "description": "Your legs keep themselves stationary in order to attack more, giving you knockback resistance. [5 Skill Points]"
+}

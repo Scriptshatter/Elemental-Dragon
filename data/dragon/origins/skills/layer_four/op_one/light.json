@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_one/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Shield of light",
+    "description": "Your body has made a small shield of light that will protect you, although only a little, in your time of need. [5 Skill Points]"
+}

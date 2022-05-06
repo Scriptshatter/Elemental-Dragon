@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Breezy scales"
+            "text": "Feathered wings"
         },
         "description": {
-            "text": "At the cost of durability, your scales have become lighter, making it easier to move [5 SP]",
+            "text": "Your wings grow feathers, allowing you to jump higher! [5 SP]",
             "color": "white"
         },
         "icon": {
@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dragon:layer_one/air"
+    "parent": "dragon:layer_three/air"
 }

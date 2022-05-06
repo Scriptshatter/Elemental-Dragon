@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Armored scales",
+    "description": "Your scales become armored, giving you more health and knockback resistance. [5 Skill Points]"
+}

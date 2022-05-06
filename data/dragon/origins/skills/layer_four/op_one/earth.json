@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_one/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Creeping greed",
+    "description": "You start to become more greedy, attempting to find valuable gems and resources wherever possible. [5 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Shadowed arms",
+    "description": "Your arms become enveloped in shadows, giving you the ability to attack faster. However, the world has turned against you due to your growing darkness. [5 Skill Point]"
+}

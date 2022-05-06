@@ -4,7 +4,8 @@
             "text": "Webbed feet"
         },
         "description": {
-            "text": "Your feet are now webbed, and you can swim faster! However, you are now flammable. [10 Skill Points]"
+            "text": "Your feet are now webbed, and you can swim faster! However, you are now flammable. [10 Skill Points]",
+            "color": "aqua"
         },
         "icon": {
             "item": "minecraft:water_bucket"

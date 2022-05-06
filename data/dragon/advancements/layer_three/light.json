@@ -4,7 +4,8 @@
             "text": "Beacon of light"
         },
         "description": {
-            "text": "You are a beacon of light, and can take down any undead mob. However, the darkness of the wither hurts you even more. [15 Skill Points]"
+            "text": "You are a beacon of light, and can take down any undead mob. However, the darkness of the wither hurts you even more. [15 Skill Points]",
+            "color": "yellow"
         },
         "icon": {
             "item": "minecraft:glowstone"

@@ -4,7 +4,8 @@
             "text": "Complete darkness"
         },
         "description": {
-            "text": "Your soul is now consumed by darkness, making you undead, and immune to most poisons. [10 Skill Points]"
+            "text": "Your soul is now consumed by darkness, making you undead, and immune to most poisons. [10 Skill Points]",
+            "color": "black"
         },
         "icon": {
             "item": "minecraft:black_concrete"

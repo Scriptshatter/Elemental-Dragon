@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_one/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Fisherman's blessing",
+    "description": "Fisherman? Fisherdragon? Whatever, point is you have their blessing, and have a higher chance of getting treasure! [5 Skill Points]"
+}

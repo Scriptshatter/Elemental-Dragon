@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_one/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Feathered arms",
+    "description": "Your arms grow feathers, allowing you to attack faster! [5 Skill Points]"
+}

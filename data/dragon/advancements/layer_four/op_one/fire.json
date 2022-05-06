@@ -1,16 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Fiery spirit"
+            "text": "Legs of fire"
         },
         "description": {
-            "text": "Your spirit has become a blazing fire, allowing you to light enemies on fire. However, cold biomes dont seem to agree with your fiery soul. [10 Skill Points]",
+            "text": "Your legs keep themselves stationary in order to attack more, giving you knockback resistance. [5 SP]",
             "color": "red"
         },
         "icon": {
             "item": "minecraft:blaze_powder"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dragon:layer_two/fire"
+    "parent": "dragon:layer_three/fire"
 }

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Feathered arms"
+        },
+        "description": {
+            "text": "Your arms grow feathers, allowing you to attack faster! [5 SP]",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_three/air"
+}

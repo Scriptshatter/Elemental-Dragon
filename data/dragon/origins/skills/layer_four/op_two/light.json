@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_four/op_two/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Will of light",
+    "description": "You gain ultimate will to protect other people, and gain more health to assist in doing so. [10 Skill Points]"
+}

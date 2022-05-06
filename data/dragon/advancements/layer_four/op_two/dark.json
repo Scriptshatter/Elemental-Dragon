@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Breezy scales"
+            "text": "Shadowed arms"
         },
         "description": {
-            "text": "At the cost of durability, your scales have become lighter, making it easier to move [5 SP]",
-            "color": "white"
+            "text": "Your arms become enveloped in shadows, giving you the ability to attack faster. However, the world has turned against you due to your growing darkness. [5 SP]",
+            "color": "black"
         },
         "icon": {
-            "item": "minecraft:feather"
+            "item": "minecraft:black_concrete"
         },
         "frame": "goal",
         "show_toast": true,
@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dragon:layer_one/air"
+    "parent": "dragon:layer_three/dark"
 }

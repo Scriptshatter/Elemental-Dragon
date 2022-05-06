@@ -4,7 +4,8 @@
             "text": "Flexible wings"
         },
         "description": {
-            "text": "Your wings improve, giving you more jump height [1 SP]"
+            "text": "Your wings improve, giving you more jump height [1 SP]",
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:feather"
