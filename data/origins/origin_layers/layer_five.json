@@ -1,0 +1,778 @@
+{
+    "name": "Tier 5 skill",
+    "hidden": true,
+    "auto_choose": true,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/air"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_two/air"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/air"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/air",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/air"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/dark"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_two/dark"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/dark"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/dark",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_two/dark"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/earth",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/earth",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/earth"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/earth",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/earth",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_two/earth"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/earth",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/earth"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_two/fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/fire",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_two/fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/light"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_two/light"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/light"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/light",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_two/light"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_one/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_one/op_one/water"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_one/water"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 10
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/water",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_four/op_two/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_five/path_two/op_two/water"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:transitions/layer_five/previous"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
+        }
+    ]
+}

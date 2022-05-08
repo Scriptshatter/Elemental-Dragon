@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Wind weaver"
+        },
+        "description": {
+            "text": "You control the flow of air around you, giving you arm a boost in speed when attacking. [5 SP]",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/air"
+}

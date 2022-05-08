@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Values Hoarder"
+        },
+        "description": {
+            "text": "You're so greedy, you hoard any valuable item you get! Lets you open up an extra inventory with secondary. However, your greed weighs you down, making you move slower. [20 SP]",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_one/op_two/earth"
+}

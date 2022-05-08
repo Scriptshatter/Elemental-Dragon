@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Pouring darkness",
+    "description": "Darkness pours out of you, hurting anything and anyone around you. except for other undead creatures. [10 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Enticing rain",
+    "description": "When raining, you now emit a aroma that seems to almost control fish into giving you their treasures. [10 Skill Points]"
+}

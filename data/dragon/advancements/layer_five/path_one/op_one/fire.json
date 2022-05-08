@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Blazing speeds"
+        },
+        "description": {
+            "text": "Your claws are now fired up, giving you more movement speed. [5 SP]",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/fire"
+}

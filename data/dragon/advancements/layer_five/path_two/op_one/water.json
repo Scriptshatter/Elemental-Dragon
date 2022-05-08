@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Salted water"
+        },
+        "description": {
+            "text": "The salt your body uses is now also used to form a salt-water substance around you, giving you extra defence. [10 SP]",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/water"
+}

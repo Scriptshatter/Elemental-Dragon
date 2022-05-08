@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "The light resistance",
+    "description": "You emmit a aura of resistance, making players around you able to take more damage. However, because of your new defensive nature, you've started to move slower. [15 Skill Points]"
+}

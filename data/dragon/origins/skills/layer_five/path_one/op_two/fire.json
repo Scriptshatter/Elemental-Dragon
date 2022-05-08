@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_two/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Shining Shield",
+    "description": "You blast fire from your claws when you jump, making you jump higher. [5 Skill Points]"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Sudden gust"
+        },
+        "description": {
+            "text": "Gain the ability to cause a sudden gust of wind with quinary to boost you up! The catch is, in order to cause this your scales have become hollow, making them much more fragile. [20 SP]",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/air"
+}

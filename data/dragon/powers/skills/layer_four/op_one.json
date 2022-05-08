@@ -56,7 +56,7 @@
         "modifier": {
             "attribute": "minecraft:generic.attack_speed",
             "operation": "addition",
-            "value": 0.5
+            "value": 0.1
         }
     },
     "dark": {

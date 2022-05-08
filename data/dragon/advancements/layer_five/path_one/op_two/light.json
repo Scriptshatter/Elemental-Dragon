@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Shining Shield"
+        },
+        "description": {
+            "text": "Your shield has become much more powerful, now able to protect you far more. This appears to slow you however. [10 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/light"
+}

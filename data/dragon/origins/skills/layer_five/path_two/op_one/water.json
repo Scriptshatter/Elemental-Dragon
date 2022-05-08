@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/water"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Salted water",
+    "description": "The salt your body uses is now also used to form a salt-water substance around you, giving you extra defence. [10 Skill Points]"
+}

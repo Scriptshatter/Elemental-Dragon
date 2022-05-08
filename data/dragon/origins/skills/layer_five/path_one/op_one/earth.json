@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Untrusting greed",
+    "description": "Villagers see you as greedy and untrustworthy, however you're now able to find much better chest loot. [10 Skill Points]"
+}

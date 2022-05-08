@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Claws of fire",
+    "description": "Your claws are now much hotter, giving you more attack. [10 Skill Points]"
+}

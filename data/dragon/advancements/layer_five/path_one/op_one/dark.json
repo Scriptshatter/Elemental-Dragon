@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Pouring darkness"
+        },
+        "description": {
+            "text": "Darkness pours out of you, hurting anything and anyone around you. except for other undead creatures. [10 SP]",
+            "color": "black"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/dark"
+}

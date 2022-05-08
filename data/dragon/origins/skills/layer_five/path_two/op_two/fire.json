@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_two/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Blazing speed",
+    "description": "Your arms now attack at blazing speeds! although all the energy used to knock enimies back has been transformed into speed. [10 Skill Points]"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "The light resistance"
+        },
+        "description": {
+            "text": "You emmit a aura of resistance, making players around you able to take more damage. However, because of your new defensive nature, you've started to move slower. [15 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/light"
+}

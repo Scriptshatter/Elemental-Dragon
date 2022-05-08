@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Shadowed sprint"
+        },
+        "description": {
+            "text": "Your claws are now covered in shadow, making movement easyer and increasing your speed. [5 SP]",
+            "color": "black"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/dark"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Wind weaver",
+    "description": "You control the flow of air around you, giving you arm a boost in speed when attacking. [5 Skill Points]"
+}

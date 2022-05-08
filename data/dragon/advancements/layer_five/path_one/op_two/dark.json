@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Hardened darkness"
+        },
+        "description": {
+            "text": "The darkness that was leaking out has collected itself, hardening around you. [10 SP]",
+            "color": "black"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/dark"
+}

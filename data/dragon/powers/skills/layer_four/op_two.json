@@ -29,8 +29,8 @@
         },
         "type": "origins:modify_break_speed",
         "modifier": {
-            "operation": "multiply_base",
-            "value": 0.5
+            "operation": "addition",
+            "value": 0.05
         }
     },
     "earth": {
@@ -78,7 +78,7 @@
             {
                 "attribute": "minecraft:generic.attack_speed",
                 "operation": "addition",
-                "value": 1
+                "value": 0.2
             }
         ]
     },
@@ -89,9 +89,9 @@
             "advancement": "dragon:layer_four/op_two/light"
         },
         "modifier": {
-            "attribute": "minecraft:generic.max_health",
+            "attribute": "minecraft:generic.movement_speed",
             "operation": "addition",
-            "value": 4
+            "value": 0.05
         }
     }
 }

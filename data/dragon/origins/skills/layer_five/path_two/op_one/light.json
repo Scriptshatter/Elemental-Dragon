@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Luminous leap",
+    "description": "Your claws and legs now glow with light, giving you the ability to jump higher. [10 Skill Points]"
+}

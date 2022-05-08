@@ -39,8 +39,18 @@
         },
         "interval": 20,
         "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_two/dark"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light",
+                    "inverted": true
+                }
+            ]
         }
     },
     "earth_speed": {
@@ -76,7 +86,7 @@
             {
                 "attribute": "minecraft:generic.attack_speed",
                 "operation": "addition",
-                "value": 0
+                "value": 0.2
             },
             {
                 "attribute": "minecraft:generic.armor",
@@ -86,11 +96,25 @@
         ]
     },
     "light_size": {
-        "type": "extraorigins:modify_size",
-        "scale": 0.8,
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 0.8 @s"
+        },
+        "interval": 20,
         "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_two/light"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark",
+                    "inverted": true
+                }
+            ]
         }
     },
     "light_villager": {
@@ -137,6 +161,50 @@
             "attribute": "minecraft:generic.attack_damage",
             "operation": "addition",
             "value": 0.5
+        }
+    },
+    "l_and_d": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 1 @s"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark"
+                }
+            ]
+        }
+    },
+    "no_size": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 1 @s"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark",
+                    "inverted": true
+                }
+            ]
         }
     },
     "hidden": true

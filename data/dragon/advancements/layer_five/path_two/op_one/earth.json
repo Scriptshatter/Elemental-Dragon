@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Armor Shell"
+        },
+        "description": {
+            "text": "Your body forms a small shield around the outside of armor to make it tougher. [10 SP]",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/earth"
+}

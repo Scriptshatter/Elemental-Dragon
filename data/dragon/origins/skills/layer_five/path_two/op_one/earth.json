@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Armor Shell",
+    "description": "Your body forms a small shield around the outside of armor to make it tougher. [10 Skill Points]"
+}

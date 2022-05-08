@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Shadow claws",
+    "description": "Your claws are now coverd in a sharp, shadow-like substance, giving them more attack. [5 Skill Points]"
+}

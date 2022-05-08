@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_two/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Calamus claws",
+    "description": "There are feathers on the heels of your claws, allowing you to move faster pace. [5 Skill Points]"
+}

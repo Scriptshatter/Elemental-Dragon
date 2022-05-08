@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Claws of fire"
+        },
+        "description": {
+            "text": "Your claws are now much hotter, giving you more attack. [10 SP]",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/fire"
+}

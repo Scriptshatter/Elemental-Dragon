@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_two/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Shining Shield",
+    "description": "Your shield has become much more powerful, now able to protect you far more. This appears to slow you however. [10 Skill Points]"
+}

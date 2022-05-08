@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_two/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Hardened darkness",
+    "description": "The darkness that was leaking out has collected itself, hardening around you. [10 Skill Points]"
+}

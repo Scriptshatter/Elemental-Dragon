@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Gold digger"
+        },
+        "description": {
+            "text": "You dig and dig and dig in attempt to find more and more valuables. [10 SP]",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_one/earth"
+}

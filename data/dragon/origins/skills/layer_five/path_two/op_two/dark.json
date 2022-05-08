@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_two/dark"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Shadowed sprint",
+    "description": "Your claws are now covered in shadow, making movement easyer and increasing your speed. [5 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_two/light"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Healing aura",
+    "description": "You gain the ability to activate a healing aura to help others around you. Toggle with the Senary key. [10 Skill Points]"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Luminous leap"
+        },
+        "description": {
+            "text": "Your claws and legs now glow with light, giving you the ability to jump higher. [10 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/light"
+}

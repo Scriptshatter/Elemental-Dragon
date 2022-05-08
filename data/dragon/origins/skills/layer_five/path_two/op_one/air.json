@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_two/op_one/air"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Sudden gust",
+    "description": "Gain the ability to cause a sudden gust of wind with quinary to boost you up! The catch is, in order to cause this your scales have become hollow, making them much more fragile. [20 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_two/earth"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Gold digger",
+    "description": "You dig and dig and dig in attempt to find more and more valuables. [10 Skill Points]"
+}

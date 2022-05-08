@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Blazing speed"
+        },
+        "description": {
+            "text": "Your arms now attack at blazing speeds! although all the energy used to knock enimies back has been transformed into speed. [10 SP]",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/fire"
+}

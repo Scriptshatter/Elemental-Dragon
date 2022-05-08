@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_five/path_one/op_one/fire"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Blazing speeds",
+    "description": "Your claws are now fired up, giving you more movement speed. [5 Skill Points]"
+}

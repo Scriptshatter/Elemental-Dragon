@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Healing aura"
+        },
+        "description": {
+            "text": "You gain the ability to activate a healing aura to help others around you. Toggle with the Senary key. [10 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_four/op_two/light"
+}
