@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/water/bubble_blower"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Bubble Blower",
+    "description": "You can blow bubbles around you to give your friends air to prevent them from drowning. [15 Skill Points]"
+}

@@ -1,0 +1,63 @@
+{
+    "type": "origins:multiple",
+    "dark": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/dark"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "earth": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/earth"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "value": 8
+        }
+    },
+    "fire": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/fire"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "light": {
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/light"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.1
+        }
+    },
+    "water": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/fire"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "hidden": true
+}

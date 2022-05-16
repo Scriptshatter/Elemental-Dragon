@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Bashing blocks"
+        },
+        "description": {
+            "text": "You can now bash any 3*3 layer of blocks away with secondary! however, This has made you slower. [20 SP]",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_two/op_one/earth"
+}

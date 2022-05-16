@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Brittle Breaker"
+        },
+        "description": {
+            "text": "By pressing Nonary, you can make your opponents armor crumble as if it were made of glass, but wearing armor yourself has become impossible. [20 SP]",
+            "color": "black"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_one/op_two/dark"
+}

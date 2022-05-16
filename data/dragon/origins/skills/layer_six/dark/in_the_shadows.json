@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/dark/in_the_shadows"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "In the shadows",
+    "description": "By pressing Nonary, You can go completely invisible, and become invincible. You cant where armor anymore, however. This takes energy, however. [15 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/water/water_dash"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Water dash",
+    "description": "You can make forward momentom in the water to give you a boost in your speed. [20 Skill Points]"
+}

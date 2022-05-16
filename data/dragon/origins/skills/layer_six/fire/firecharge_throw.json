@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/fire/firecharge_throw"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Fire toss",
+    "description": "You can now use a dragons fury to throw firecharges at will! throw with septenary. [20 Skill Points]"
+}

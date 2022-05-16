@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/light/shield_parry"
+    ],
+    "icon": "minecraft:glowstone",
+    "order": 3,
+    "impact": 3,
+    "name": "Shield Parry",
+    "description": "By using your shield when something is about to attack, you can freeze an entity in their place and damage them. However, your attack speed has decreased. [25 Skill Points]"
+}

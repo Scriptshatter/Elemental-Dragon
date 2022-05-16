@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/dark/darkened_shards"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Darkened Shards",
+    "description": "By pressing Nonary, you can shoot out several damaging shards of darkness. However, doing this has reduced your max health. where did you think those shards came from? [15 Skill Points]"
+}

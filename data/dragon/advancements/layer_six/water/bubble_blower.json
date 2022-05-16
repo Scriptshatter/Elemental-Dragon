@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Bubble Blower"
+        },
+        "description": {
+            "text": "You can blow bubbles around you to give your friends air to prevent them from drowning. [15 SP]",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_two/op_one/water"
+}

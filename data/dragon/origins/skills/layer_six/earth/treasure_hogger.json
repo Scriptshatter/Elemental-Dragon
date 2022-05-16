@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/earth/treasure_hogger"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Treasure hogger",
+    "description": "You keep an extra sharp eye out for ANY chests, to the point where you can SMELL them! You activate this skill with secondary. However iron golems have become more protective of their villages, because of this. [20 Skill Points]"
+}

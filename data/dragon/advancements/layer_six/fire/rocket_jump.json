@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Rocket Jump"
+        },
+        "description": {
+            "text": "The essence of some rocket-launcher wielding maniac has enhanced you, allowing to do a explosive jump that boosts you into the air! activate with septenary. Hurts you. [15 SP]",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_one/op_two/fire"
+}

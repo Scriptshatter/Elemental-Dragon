@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/water/luck_boost"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 3,
+    "impact": 3,
+    "name": "Treasure Trove",
+    "description": "You can find treasure anywhere thanks to your magic, which can allow you to attract treasure by pressing Quaternary. However, due to your new rather passive nature, you can't hit as hard. [20 Skill Points]"
+}

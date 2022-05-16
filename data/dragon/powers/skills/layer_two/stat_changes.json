@@ -49,7 +49,12 @@
                     "type": "origins:advancement",
                     "advancement": "dragon:layer_two/light",
                     "inverted": true
-                }
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air",
+                    "inverted": true
+                } 
             ]
         }
     },
@@ -112,6 +117,11 @@
                 {
                     "type": "origins:advancement",
                     "advancement": "dragon:layer_two/dark",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air",
                     "inverted": true
                 }
             ]
@@ -180,7 +190,89 @@
                 {
                     "type": "origins:advancement",
                     "advancement": "dragon:layer_two/dark"
-                }
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air",
+                    "inverted": true
+                } 
+            ]
+        }
+    },
+    "d_and_a": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 1 @s"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air"
+                } 
+            ]
+        }
+    },
+    "l_and_a": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 0.6 @s"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air"
+                } 
+            ]
+        }
+    },
+    "l_and_d_a": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 0.9 @s"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/light"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_two/dark"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air"
+                } 
             ]
         }
     },
@@ -203,7 +295,13 @@
                     "type": "origins:advancement",
                     "advancement": "dragon:layer_two/dark",
                     "inverted": true
-                }
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_one/op_one/air",
+                    "inverted": true
+                } 
+                
             ]
         }
     },

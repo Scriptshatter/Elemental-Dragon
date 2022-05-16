@@ -1,0 +1,543 @@
+{
+    "name": "Tier 6 skill",
+    "hidden": true,
+    "auto_choose": true,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 25
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/air/atmospheric_manipulator",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/air/atmospheric_manipulator"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/air/draft_dash",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/air"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/air/draft_dash"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/dark/brittle_breaker",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/dark/brittle_breaker"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/dark/darkened_shards",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/dark/darkened_shards"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/dark/in_the_shadows",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/dark"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/dark/in_the_shadows"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/earth/hoarder",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/earth/hoarder"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/earth/mineral_miner",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/earth/mineral_miner"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/earth/bashing_blocks",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/earth"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/earth/bashing_blocks"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/fire/flame_dash",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/fire/flame_dash"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/fire/rocket_jump",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/fire/rocket_jump"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 25
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/fire/flamethrower",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/fire/flamethrower"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/fire/firecharge_throw",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/fire"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/fire/firecharge_throw"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 25
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/light/shield_parry",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_two/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/light/shield_parry"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/light/light_boost",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/light"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/light/light_boost"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/water/luck_boost",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_one/op_one/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/water/luck_boost"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 15
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/water/bubble_blower",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_one/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/water/bubble_blower"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_skill_points",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/water/water_dash",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_five/path_two/op_two/water"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:skills/layer_six/water/water_dash"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:transitions/layer_six/previous"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:origin",
+                        "origin": "dragon:dragon",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:none"
+            ]
+        }
+    ]
+}

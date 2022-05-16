@@ -1,0 +1,69 @@
+{
+    "type": "origins:multiple",
+    "air": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_one/op_two/air"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.02
+        }
+    },
+    "dark": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_one/op_two/dark"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "earth": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_one/op_two/earth"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.01
+        }
+    },
+    "fire": {
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_one/op_two/fire"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.1
+        }
+    },
+    "light": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_one/op_two/light"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": -0.03
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "operation": "addition",
+                "value": 8
+            }
+        ]
+    },
+    "hidden": true
+}

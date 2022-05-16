@@ -1,0 +1,43 @@
+{
+    "type": "origins:multiple",
+    "forward": {
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/air/draft_dash"
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        },
+        "hud_render": {
+            "bar_index": 4
+        },
+        "cooldown": 300,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "power grant @s dragon:skills/layer_six/air/dash"
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:cloud",
+                    "count": 16,
+                    "speed": 0.0,
+                    "force": true,
+                    "spread": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.bat.takeoff"
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

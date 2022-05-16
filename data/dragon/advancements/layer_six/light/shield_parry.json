@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Shield Parry"
+        },
+        "description": {
+            "text": "By using your shield when something is about to attack, you can freeze an entity in their place and damage them. However, your attack speed has decreased. [25 SP]",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_one/op_two/light"
+}

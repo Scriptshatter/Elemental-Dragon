@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/air/wind_warper"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Wind Warper",
+    "description": "If a projectile comes to close, you can use your offhand to send it away with a gust of wind by pressing quinary! However, being too close to sea level is not good, and when too close, you are weakened. [20 Skill Points]"
+}

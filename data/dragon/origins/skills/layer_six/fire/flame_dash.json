@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/fire/flame_dash"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Flame Dash",
+    "description": "You can do a powerful dash that leaves fire on the ground! however, doing this has left more scales exposed, lowering your defence. activate with septenary. [20 Skill Points]"
+}

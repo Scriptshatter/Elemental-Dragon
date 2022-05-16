@@ -4,13 +4,13 @@
             "text": "Pouring darkness"
         },
         "description": {
-            "text": "Darkness pours out of you, hurting anything and anyone around you. except for other undead creatures. [10 SP]",
+            "text": "Darkness can pour out of you, hurting anything and anyone around you. except for other undead creatures. Toggle with Nonary. [15 SP]",
             "color": "black"
         },
         "icon": {
             "item": "minecraft:black_concrete"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false

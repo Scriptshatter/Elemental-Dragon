@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/dark/brittle_breaker"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Brittle Breaker",
+    "description": "By pressing Nonary, you can make your opponents armor crumble as if it were made of glass, but wearing armor yourself has become impossible. [20 Skill Points]"
+}

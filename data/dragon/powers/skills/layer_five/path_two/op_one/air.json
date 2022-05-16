@@ -1,0 +1,51 @@
+{
+    "type": "origins:multiple",
+    "boost": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.quinary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "z": 3,
+                    "space": "local"
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:cloud",
+                    "count": 100,
+                    "speed": 0.0,
+                    "force": true,
+                    "spread": {
+                        "x": 1.0,
+                        "y": 0.0,
+                        "z": 1.0
+                    }
+                }
+            ]
+        },
+        "hud_render": {
+            "bar_index": 4
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/air"
+        },
+        "cooldown": 250
+    },
+    "weak": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_five/path_two/op_one/air"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 6
+        }
+    },
+    "hidden": true
+}

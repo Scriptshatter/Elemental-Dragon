@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/fire/rocket_jump"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Rocket Jump",
+    "description": "The essence of some rocket-launcher wielding maniac has enhanced you, allowing to do a explosive jump that boosts you into the air! activate with septenary. Hurts you. [15 Skill Points]"
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/fire/flamethrower"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Flamethrower breath",
+    "description": "Some flamethrower crazy thing has gifted you with the power to spew flames! activate with septenary. Uses hunger. [25 Skill Points]"
+}

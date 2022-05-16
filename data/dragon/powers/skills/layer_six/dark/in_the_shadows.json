@@ -1,0 +1,230 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.nonary_active"
+        },
+        "retain_state": false,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/dark/in_the_shadows"
+                },
+                {
+                    "type": "origins:on_fire",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 300,
+        "start_value": 300,
+        "hud_render": {
+            "bar_index": 14,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                        "comparison": "!=",
+                        "compare_to": 300
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/dark/in_the_shadows"
+                    }
+                ]
+            }
+        }
+    },
+    "invis": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/dark/in_the_shadows"
+                },
+                {
+                    "type": "origins:on_fire",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "invulnerable": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/dark/in_the_shadows"
+                },
+                {
+                    "type": "origins:on_fire",
+                    "inverted": true
+                }
+            ]
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:fire",
+            "inverted": true
+        }
+    },
+    "breath_loss": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/dark/in_the_shadows"
+                },
+                {
+                    "type": "origins:on_fire",
+                    "inverted": true
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+            "change": -10
+        },
+        "interval": 10
+    },
+    "gain_resource": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/dark/in_the_shadows"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+            "change": 10
+        },
+        "interval": 20
+    },
+    "hitbox_shit": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                        "comparison": "!=",
+                        "compare_to": 0
+                    },
+                    {
+                        "type": "origins:power_active",
+                        "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                    },
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:layer_six/dark/in_the_shadows"
+                    },
+                    {
+                        "type": "origins:on_fire",
+                        "inverted": true
+                    }
+                ]
+            },
+            "if_action": {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 0.001 @s"
+            },
+            "else_action": {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:hitbox_height 1 @s"
+            }
+        },
+        "interval": 5
+    },
+    "no_armor": {
+        "type": "origins:conditioned_restrict_armor",
+        "head": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "chest": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "legs": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "feet": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/dark/in_the_shadows"
+        },
+        "tick_rate": 20
+    },
+    "hidden": true
+}

@@ -1,0 +1,36 @@
+{
+    "type": "origins:multiple",
+    "mining_buff": {
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/earth/mineral_miner"
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+
+        "entity_action": {
+            "type": "origins:grant_power",
+            "power": "dragon:skills/layer_six/earth/mining_speed",
+            "source": "apoli:command"
+        },
+        "cooldown": 6000,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 17
+        }
+    },
+    "less_armor": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/earth/mineral_miner"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": -4
+        }
+    }
+}

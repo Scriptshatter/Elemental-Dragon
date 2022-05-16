@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Atmospheric manipulator"
+        },
+        "description": {
+            "text": "You can control the weather with quinary, setting it to anything you want. This, however, does make your speed in water miserable, as you cannot seem to remember how to swim properly. [25 SP]",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Skill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dragon:layer_five/path_one/op_one/air"
+}

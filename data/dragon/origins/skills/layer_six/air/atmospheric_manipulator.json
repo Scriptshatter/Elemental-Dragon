@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/air/atmospheric_manipulator"
+    ],
+    "icon": "minecraft:feather",
+    "order": 3,
+    "impact": 3,
+    "name": "Atmospheric manipulator",
+    "description": "You can control the weather with quinary, setting it to anything you want. This, however, does make your speed in water miserable, as you cannot seem to remember how to swim properly. [25 Skill Points]"
+}

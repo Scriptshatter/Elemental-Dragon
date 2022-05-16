@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/dark/static_darkness"
+    ],
+    "icon": "minecraft:black_concrete",
+    "order": 3,
+    "impact": 3,
+    "name": "Static Darkness",
+    "description": "By pressing Nonary, you freeze your opponent in place with the darkness that leaks out of you. however your max health is decreased because you are using your insides to lock them in place. [15 Skill Points]"
+}

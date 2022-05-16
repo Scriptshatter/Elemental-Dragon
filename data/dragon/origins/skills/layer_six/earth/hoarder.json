@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "dragon:triggers/layer_six/earth/hoarder"
+    ],
+    "icon": "minecraft:dirt",
+    "order": 3,
+    "impact": 3,
+    "name": "Values Hoarder",
+    "description": "You're so greedy, you hoard any valuable item you get! Lets you open up an extra inventory with secondary. However, your greed weighs you down, making you move slower. [20 Skill Points]"
+}

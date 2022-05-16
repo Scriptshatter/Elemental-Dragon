@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "inven": {
+        "type": "origins:inventory",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/earth/hoarder"
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "title": "Hoarding pouch"
+    },
+    "slower": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/earth/hoarder"
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.015
+        } 
+    },
+    "hidden": true
+}

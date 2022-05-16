@@ -141,7 +141,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 10
+                        "compare_to": 15
                     },
                     {
                         "type": "origins:advancement",
@@ -743,6 +743,20 @@
             },
             "origins": [
                 "dragon:transitions/layer_five/previous"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions":[
+                    {
+                        "type": "origins:advancement",
+                        "advancement": "dragon:root"
+                    }
+                ]
+            },
+            "origins": [
+                "dragon:transitions/layer_five/next"
             ]
         },
         {

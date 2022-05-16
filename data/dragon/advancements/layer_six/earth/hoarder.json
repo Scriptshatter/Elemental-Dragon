@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dragon:layer_five/path_one/op_two/earth"
+    "parent": "dragon:layer_five/path_one/op_one/earth"
 }

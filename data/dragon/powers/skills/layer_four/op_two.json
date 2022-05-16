@@ -7,8 +7,19 @@
             "z": 0.5
         },
         "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_four/op_two/fire"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_four/op_two/fire"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_five/path_two/op_two/fire",
+                    "inverted": true
+                }
+            ]
+
         }
     },
     "water": {
@@ -93,5 +104,6 @@
             "operation": "addition",
             "value": 0.05
         }
-    }
+    },
+    "hidden": true
 }
