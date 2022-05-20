@@ -35,7 +35,8 @@
         "dragon:skills/layer_six/dark/in_the_shadows",
         "dragon:skills/layer_six/earth/bashing_blocks",
         "dragon:skills/layer_six/earth/hoarder",
-        "dragon:skills/layer_six/earth/mineral_miner"
+        "dragon:skills/layer_six/earth/mineral_miner",
+        "dragon:skills/layer_six/fire/firecharge_throw"
     ],
     "icon": "minecraft:dragon_head",
     "order": 3,
