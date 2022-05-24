@@ -5,6 +5,6 @@
     "icon": "minecraft:blaze_powder",
     "order": 3,
     "impact": 3,
-    "name": "Fire toss",
-    "description": "You can now use a dragons fury to throw firecharges at will! throw with septenary. [20 Skill Points]"
+    "name": "Furnace flames",
+    "description": "You can smelt stuff in your offhand! Smelt with septenary. However, your hands now burn any wood that has not adapted to heat upon breaking it. [20 Skill Points]"
 }

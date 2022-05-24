@@ -14,6 +14,17 @@
             "block": false,
             "type": "origins:raycast",
             "distance": 500,
+            "bientity_condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:living"
+                        }
+                    }
+                ]
+            },
             "bientity_action": {
                 "type": "origins:and",
                 "actions": [

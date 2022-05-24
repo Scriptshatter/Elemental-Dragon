@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Fire toss"
+            "text": "Furnace flames"
         },
         "description": {
-            "text": "You can now use a dragons fury to throw firecharges at will! throw with septenary. [20 SP]",
+            "text": "You can smelt stuff in your offhand! Smelt with septenary. However, your hands now burn any wood that has not adapted to heat upon breaking it. [20 Skill Points] [20 SP]",
             "color": "red"
         },
         "icon": {

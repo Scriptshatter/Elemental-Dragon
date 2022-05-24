@@ -1,15 +1,8 @@
 {
     "type": "origins:multiple",
-    "cooldown": {
-        "type": "origins:cooldown",
-        "cooldown": 600,
-        "hud_render": {
-            "bar_index": 7,
-            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
-        }
-    },
-    "consume": {
+    "smelt_in_hand": {
         "type": "origins:active_self",
+        "cooldown": 1280,
         "condition": {
             "type": "origins:and",
             "conditions": [
@@ -18,354 +11,55 @@
                     "advancement": "dragon:layer_six/fire/firecharge_throw"
                 },
                 {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:smeltable"
+                    }
                 }
             ]
         },
-        "cooldown": 1,
         "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "hud_render": {
-            "should_render": false
+            "key": "key.origins.septenary_active"
         },
         "entity_action": {
-            "type": "origins:if_else_list",
+            "type": "origins:and",
             "actions": [
                 {
-                    "condition": {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "mainhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:fire_charge"
-                            }
-                        }
-                    },
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "offhand",
                     "action": {
-                        "type": "origins:equipped_item_action",
-                        "equipment_slot": "mainhand",
-                        "action": {
-                            "type": "origins:consume",
-                            "amount": 1
-                        }
+                        "type": "origins:modify",
+                        "modifier": "dragon:smelt"
                     }
                 },
                 {
-                    "condition": {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "offhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:fire_charge"
-                            }
-                        }
-                    },
-                    "action": {
-                        "type": "origins:equipped_item_action",
-                        "equipment_slot": "offhand",
-                        "action": {
-                            "type": "origins:consume",
-                            "amount": 1
-                        }
-                    }
-                }
-            ]
-        } 
-    },
-    "throw_mainhand": {
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.fire.extinguish",
+                    "pitch": 2
                 },
                 {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    },
-                    "inverted": true
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:flame",
+                    "count": 50
                 }
             ]
         },
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "type": "origins:fire_projectile",
-        "entity_type": "minecraft:fireball",
         "hud_render": {
-            "should_render" : false
-        },
-        "cooldown": 1
-    },
-    "throw_offhand": {
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    },
-                    "inverted": true
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
-        },
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "type": "origins:fire_projectile",
-        "entity_type": "minecraft:fireball",
-        "hud_render": {
-            "should_render" : false
-        },
-        "cooldown": 1
-    },
-    "throw_both_hands": {
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
-        },
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "type": "origins:fire_projectile",
-        "entity_type": "minecraft:fireball",
-        "hud_render": {
-            "should_render" : false
-        },
-        "cooldown": 1
-    },
-    "trigger_cooldown_mainhand": {
-        "type": "origins:active_self",
-        "cooldown": 1,
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "entity_action":
-        {
-            "type": "origins:trigger_cooldown",
-            "power": "dragon:skills/layer_six/fire/firecharge_throw_cooldown"
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    },
-                    "inverted": true
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 7
         }
     },
-    "trigger_cooldown_offhand": {
-        "type": "origins:active_self",
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "entity_action":
-        {
-            "type": "origins:trigger_cooldown",
-            "power": "dragon:skills/layer_six/fire/firecharge_throw_cooldown"
+    "no_wood": {
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:material",
+            "material": "wood"
         },
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    },
-                    "inverted":true
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/fire/firecharge_throw"
         },
-        "cooldown": 1
-    },
-    "trigger_cooldown_both_hands": {
-        "type": "origins:active_self",
-        "key": {
-            "key": "key.origins.septenary_active",
-            "continuous": false
-        },
-        "entity_action":
-        {
-            "type": "origins:trigger_cooldown",
-            "power": "dragon:skills/layer_six/fire/firecharge_throw_cooldown"
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:fire_charge"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/fire/firecharge_throw_cooldown",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
-        },
-        "cooldown": 1
+        "allow": false
     }
 }
