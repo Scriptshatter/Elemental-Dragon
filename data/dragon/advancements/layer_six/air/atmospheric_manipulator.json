@@ -4,8 +4,18 @@
             "text": "Atmospheric manipulator"
         },
         "description": {
-            "text": "You can control the weather with quinary, setting it to anything you want. This, however, does make your speed in water miserable, as you cannot seem to remember how to swim properly. [25 SP]",
-            "color": "white"
+            "text": "You can control the weather with ",
+            "color": "white",
+            "extra": [
+              {
+                "keybind": "key.origins.quinary_active",
+                "color": "white"
+              },
+              {
+                "text": ", setting it to anything you want. This, however, does make your speed in water miserable, as you cannot seem to remember how to swim properly. [25 SP]",
+                "color": "white"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:feather"

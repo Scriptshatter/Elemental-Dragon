@@ -1,0 +1,37 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 18000,
+    "key": {
+        "key": "key.origins.quaternary_active"
+    },
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 10,
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions":[
+                    {
+                        "type": "origins:execute_command",
+                        "command": "power grant @s dragon:skills/layer_six/water/water_breath"
+                    },
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "dragon:skills/layer_six/water/water_breath",
+                        "change": 18000
+                    }
+                ]
+            }
+        }
+    },
+    "condition": {
+        "type": "origins:advancement",
+        "advancement": "dragon:layer_six/water/bubble_blower"
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 16
+    },
+    "hidden": true
+}

@@ -30,5 +30,6 @@
             "operation": "addition",
             "value": -4
         }
-    }
+    },
+    "hidden": true
 }

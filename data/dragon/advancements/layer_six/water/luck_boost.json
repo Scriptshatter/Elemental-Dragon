@@ -4,8 +4,18 @@
             "text": "Treasure trove"
         },
         "description": {
-            "text": "You can find treasure anywhere thanks to your magic, which can allow you to attract treasure by pressing Quaternary. However, due to your new rather passive nature, you can't hit as hard. [20 SP]",
-            "color": "aqua"
+            "text": "You can find treasure anywhere thanks to your magic, which can allow you to attract treasure by pressing ",
+            "color": "aqua",
+            "extra": [
+              {
+                "keybind": "key.origins.quaternary_active",
+                "color": "aqua"
+              },
+              {
+                "text": ". However, due to your new rather passive nature, you can't hit as hard. [20 SP]",
+                "color": "aqua"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:water_bucket"

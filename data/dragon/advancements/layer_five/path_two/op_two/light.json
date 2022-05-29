@@ -4,8 +4,18 @@
             "text": "Healing aura"
         },
         "description": {
-            "text": "You gain the ability to activate a healing aura to help others around you. Toggle with the Senary key. [10 SP]",
-            "color": "yellow"
+            "text": "You gain the ability to activate a healing aura to help others around you. Toggle with ",
+            "color": "yellow",
+            "extra": [
+              {
+                "keybind": "key.origins.senary_active",
+                "color": "yellow"
+              },
+              {
+                "text": ". [10 SP]",
+                "color": "yellow"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:glowstone"

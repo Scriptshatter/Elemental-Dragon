@@ -4,25 +4,26 @@
         "type": "origins:active_self",
         "condition": {
             "type": "origins:advancement",
-            "advancement": "dragon:layer_six/air/draft_dash"
+            "advancement": "dragon:layer_six/fire/flame_dash"
         },
         "key": {
-            "key": "key.origins.quinary_active"
+            "key": "key.origins.septenary_active"
         },
         "hud_render": {
-            "bar_index": 4
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 7
         },
-        "cooldown": 300,
+        "cooldown": 600,
         "entity_action": {
             "type": "origins:and",
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "power grant @s dragon:skills/layer_six/air/dash"
+                    "command": "power grant @s dragon:skills/layer_six/fire/dash"
                 },
                 {
                     "type": "origins:spawn_particles",
-                    "particle": "minecraft:cloud",
+                    "particle": "minecraft:flame",
                     "count": 16,
                     "speed": 0.0,
                     "force": true,
@@ -34,7 +35,7 @@
                 },
                 {
                     "type": "origins:play_sound",
-                    "sound": "minecraft:entity.bat.takeoff"
+                    "sound": "minecraft:item.firecharge.use"
                 }
             ]
         }

@@ -4,8 +4,18 @@
             "text": "Darkened Shards"
         },
         "description": {
-            "text": "By pressing Nonary, you can shoot out several damaging shards of darkness. However, doing this has reduced your max health. where did you think those shards came from? [15 SP]",
-            "color": "black"
+            "text": "By pressing ",
+            "color": "black",
+            "extra": [
+              {
+                "keybind": "key.origins.nonary_active",
+                "color": "black"
+              },
+              {
+                "text": ", you can shoot out several damaging shards of darkness. However, doing this has reduced your max health. where did you think those shards came from? [15 SP]",
+                "color": "black"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:black_concrete"

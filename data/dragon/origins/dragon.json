@@ -36,12 +36,20 @@
         "dragon:skills/layer_six/earth/bashing_blocks",
         "dragon:skills/layer_six/earth/hoarder",
         "dragon:skills/layer_six/earth/mineral_miner",
-        "dragon:skills/layer_six/fire/firecharge_throw"
+        "dragon:skills/layer_six/fire/firecharge_throw",
+        "dragon:skills/layer_six/fire/drift_dash",
+        "dragon:skills/layer_six/fire/flamethrower",
+        "dragon:skills/layer_six/fire/rocket_jump",
+        "dragon:skills/layer_six/light/light_boost",
+        "dragon:skills/layer_six/light/shield_parry",
+        "dragon:skills/layer_six/water/bubble_blower",
+        "dragon:skills/layer_six/water/mineral_miner",
+        "dragon:skills/layer_six/water/drift_dash"
     ],
     "icon": "minecraft:dragon_head",
     "order": 3,
     "impact": 3,
     "name": "Dragon",
-    "description": "You are a dragon, and you may choose your path. Get exp by killing your enemies, or mining blocks. and skills you get may be seen on your skill tree, displayed in the advancements menu.",
+    "description": "You are a dragon, and you may choose your path. Get exp by killing your enemies, or mining blocks. and skills you get may be seen on your skill tree, displayed in the advancements menu. You may choose 2 base elements, and one path per element.",
     "unchoosable": true
 }

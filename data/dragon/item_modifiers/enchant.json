@@ -1,0 +1,1722 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "name": "Check zone 2",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{AttributeModifiers:[{Name:\"Check zone 1\"}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "name": "Check zone 0",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "name": "Check zone 1",
+          "amount": 2,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{AttributeModifiers:[{Name:\"Check zone 0\"}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{HideFlags:2}"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "Enhanced by the power of light!",
+          "color": "yellow",
+          "bold": false,
+          "italic": false,
+          "underlined": true,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "name": "Health",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed",
+          "amount": 0.05,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "Speed",
+          "amount": 10,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "Armor Toughness",
+          "amount": 20,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "Armor Toughness",
+          "amount": 5,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 5
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "Attack speed",
+          "amount": 1,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 6
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "Attack speed",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 7
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "name": "Luck",
+          "amount": 25,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 8
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:critical_bonus_damage",
+          "name": "Crit dmg",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 9
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_speed",
+          "name": "lava speed",
+          "amount": 2.5,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 10
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:lava_visibility",
+          "name": "lava visibility",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 11
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_speed",
+          "name": "water speed",
+          "amount": 0.02,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 12
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "offhand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "legs"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "additionalentityattributes:water_visibility",
+          "name": "water visibility",
+          "amount": 40,
+          "operation": "addition",
+          "slot": "feet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "enhance_rng": 13
+          }
+        }
+      ]
+    }
+  ]
+  

@@ -4,8 +4,18 @@
             "text": "The light resistance"
         },
         "description": {
-            "text": "You can toggle a aura of resistance, making players around you able to take more damage. However, because of your new defensive nature, you've started to move slower. Toggle with Senary. [15 SP]",
-            "color": "yellow"
+            "text": "You can toggle a aura of resistance, making players around you able to take more damage. However, because of your new defensive nature, you've started to move slower. Toggle with ",
+            "color": "yellow",
+            "extra": [
+              {
+                "keybind": "key.origins.senary_active",
+                "color": "yellow"
+              },
+              {
+                "text": ". [15 SP]",
+                "color": "yellow"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:glowstone"

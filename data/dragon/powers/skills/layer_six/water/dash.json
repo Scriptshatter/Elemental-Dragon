@@ -1,0 +1,120 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 10,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "lfjgnkljdfngkljdfngklj"
+        }
+    },
+    "get_rid_of_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:revoke_power",
+                    "power": "*:*",
+                    "source": "*:skills/layer_six/water/drift_dash"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "*:*",
+                    "source": "apoli:command"
+                }
+            ]
+        }
+    },
+    "activte_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_cooldown"
+        }
+    },
+    "activate_self_destruct": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:toggle",
+            "power": "*:*_toggle"
+        }
+    },
+    "dash": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "space": "local",
+            "z": 1,
+            "y": 0,
+            "x": 0,
+            "set": true
+        },
+        "interval": 1
+    },
+    "fov_effects": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    }
+}

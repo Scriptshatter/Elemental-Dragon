@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Press ",
+            "extra": [
+              {
+                "keybind": "key.origins.view_origin"
+              }
+            ]
+        },
+        "description": {
+            "text": "placeholdertext",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:light"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/cauldron_inner.png"
+    },
+    "criteria": {
+        "impossibe": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

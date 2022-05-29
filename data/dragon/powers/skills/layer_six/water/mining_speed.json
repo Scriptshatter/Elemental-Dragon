@@ -1,0 +1,110 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 600,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 3,
+            "inverted": true
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "lfjgnkljdfngkljdfngklj"
+        }
+    },
+    "get_rid_of_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:revoke_power",
+                    "power": "*:*",
+                    "source": "*:skills/layer_six/water/mineral_miner"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "*:*",
+                    "source": "apoli:command"
+                }
+            ]
+        }
+    },
+    "activte_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_cooldown"
+        }
+    },
+    "activate_self_destruct": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:toggle",
+            "power": "*:*_toggle"
+        }
+    },
+    "more_luck": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.luck",
+            "value": 300,
+            "operation": "addition"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+        "type": "origins:advancement",
+        "advancement": "dragon:layer_six/light/light_boost"
+    },
+    "key": {
+        "key": "key.origins.senary_active"
+    },
+    "cooldown": 2400,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 20
+    },
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "y": 10
+    },
+    "hidden": true
+}

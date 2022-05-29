@@ -1,0 +1,44 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.septenary_active",
+        "continuous": true
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:advancement",
+                "advancement": "dragon:layer_six/fire/flamethrower"
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": "!=",
+                "compare_to": 0
+            }
+        ]
+    },
+    "cooldown": 1,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:exhaust",
+                "amount": 0.3
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 16,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:set_on_fire",
+                        "duration": 5
+                    }
+                },
+                "command_along_ray": "particle minecraft:flame"
+            }
+        ]
+    },
+    "hidden": true
+}

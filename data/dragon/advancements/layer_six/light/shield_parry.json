@@ -1,11 +1,21 @@
 {
     "display": {
         "title": {
-            "text": "Shield Parry"
+            "text": "Shining Hands"
         },
         "description": {
-            "text": "By using your shield when something is about to attack, you can freeze an entity in their place and damage them. However, your attack speed has decreased. [25 SP]",
-            "color": "yellow"
+            "text": "By pressing ",
+            "color": "yellow",
+            "extra": [
+              {
+                "keybind": "key.origins.senary_active",
+                "color": "yellow"
+              },
+              {
+                "text": " you can enchant any item in your main hand! [25 SP]",
+                "color": "yellow"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:glowstone"

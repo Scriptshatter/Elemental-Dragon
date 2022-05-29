@@ -21,11 +21,11 @@
             "conditions": [
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/air/dash_toggle"
+                    "power": "dragon:skills/layer_six/fire/dash_toggle"
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/air/dash_cooldown",
+                    "resource": "dragon:skills/layer_six/fire/dash_cooldown",
                     "comparison": "==",
                     "compare_to": 0
                 }
@@ -37,12 +37,12 @@
             "actions": [
                 {
                     "type": "origins:revoke_power",
-                    "power": "dragon:skills/layer_six/air/dash",
-                    "source": "dragon:skills/layer_six/air/drift_dash"
+                    "power": "dragon:skills/layer_six/fire/dash",
+                    "source": "dragon:skills/layer_six/fire/drift_dash"
                 },
                 {
                     "type": "origins:revoke_power",
-                    "power": "dragon:skills/layer_six/air/dash",
+                    "power": "dragon:skills/layer_six/fire/dash",
                     "source": "apoli:command"
                 }
             ]
@@ -55,12 +55,12 @@
             "conditions": [
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/air/dash_toggle",
+                    "power": "dragon:skills/layer_six/fire/dash_toggle",
                     "inverted": true
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/air/dash_cooldown",
+                    "resource": "dragon:skills/layer_six/fire/dash_cooldown",
                     "comparison": "==",
                     "compare_to": 0
                 }
@@ -69,7 +69,7 @@
         "interval": 1,
         "entity_action": {
             "type": "origins:trigger_cooldown",
-            "power": "dragon:skills/layer_six/air/dash_cooldown"
+            "power": "dragon:skills/layer_six/fire/dash_cooldown"
         }
     },
     "activate_self_destruct": {
@@ -79,12 +79,12 @@
             "conditions": [
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/air/dash_toggle",
+                    "power": "dragon:skills/layer_six/fire/dash_toggle",
                     "inverted": true
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/air/dash_cooldown",
+                    "resource": "dragon:skills/layer_six/fire/dash_cooldown",
                     "comparison": ">=",
                     "compare_to": 1
                 }
@@ -93,7 +93,7 @@
         "interval": 1,
         "entity_action": {
             "type": "origins:toggle",
-            "power": "dragon:skills/layer_six/air/dash_toggle"
+            "power": "dragon:skills/layer_six/fire/dash_toggle"
         }
     },
     "dash": {
@@ -116,5 +116,23 @@
             "value": 0.5,
             "operation": "addition"
         }
+    },
+    "fire_foot": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:air"
+                },
+                "if_action": {
+                    "type": "origins:set_block",
+                    "block": "minecraft:fire"
+                }
+            }
+        },
+        "interval": 1
     }
 }

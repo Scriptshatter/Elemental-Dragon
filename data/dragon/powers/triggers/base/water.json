@@ -10,6 +10,11 @@
             {
                 "type": "origins:execute_command",
                 "command": "origin set @s origins:base dragon:none"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "dragon:exp_base_limiter",
+                "change": 1
             }
         ]
     },

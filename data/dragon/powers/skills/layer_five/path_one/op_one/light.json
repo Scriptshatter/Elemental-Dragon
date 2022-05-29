@@ -47,8 +47,9 @@
                                 "command": "power grant @s dragon:skills/layer_five/path_one/op_one/resistance_wo_resistance"
                             },
                             {
-                                "type": "origins:execute_command",
-                                "command": "resource set @s dragon:skills/layer_five/path_one/op_one/resistance_wo_resistance_cooldown 100"
+                                "type": "origins:change_resource",
+                                "resource": "dragon:skills/layer_five/path_one/op_one/resistance_wo_resistance_cooldown",
+                                "change": 100
                             }
                         ]
                     },

@@ -1,0 +1,70 @@
+{
+    "type": "origins:multiple",
+    "forward": {
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "dragon:layer_six/water/water_dash"
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.quaternary_active"
+        },
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 16
+        },
+        "cooldown": 600,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions":[
+                {
+                    "condition": {
+                        "type": "origins:in_rain"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "power grant @s dragon:skills/layer_six/water/dash"
+                            },
+                            {
+                                "type": "origins:play_sound",
+                                "sound": "minecraft:block.bubble_column.whirlpool_inside",
+                                "pitch": 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:fluid_height",
+                        "fluid": "minecraft:water",
+                        "comparison": "!=",
+                        "compare_to": 0
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "power grant @s dragon:skills/layer_six/water/dash"
+                            },
+                            {
+                                "type": "origins:play_sound",
+                                "sound": "minecraft:block.bubble_column.whirlpool_inside",
+                                "pitch": 2
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

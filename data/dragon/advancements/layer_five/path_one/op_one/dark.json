@@ -4,8 +4,18 @@
             "text": "Pouring darkness"
         },
         "description": {
-            "text": "Darkness can pour out of you, hurting anything and anyone around you. except for other undead creatures. Toggle with Nonary. [15 SP]",
-            "color": "black"
+            "text": "Darkness can pour out of you, hurting anything and anyone around you. except for other undead creatures. Toggle with ",
+            "color": "black",
+            "extra": [
+              {
+                "keybind": "key.origins.nonary_active",
+                "color": "black"
+              },
+              {
+                "text": ". [15 SP]",
+                "color": "black"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:black_concrete"

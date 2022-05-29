@@ -4,8 +4,18 @@
             "text": "Mineral Miner"
         },
         "description": {
-            "text": "You can go bezerk when mining, giving you the ability to instamine almost any block. activate with secondary. Gaining the ability to do this has left you less defensive, decreasing armor. [20 SP]",
-            "color": "gray"
+            "text": "You can go bezerk when mining, giving you the ability to instamine almost any block. activate with ",
+            "color": "gray",
+            "extra": [
+              {
+                "keybind": "key.origins.secondary_active",
+                "color": "gray"
+              },
+              {
+                "text": ". Gaining the ability to do this has left you less defensive, decreasing armor. [20 SP]",
+                "color": "gray"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:dirt"

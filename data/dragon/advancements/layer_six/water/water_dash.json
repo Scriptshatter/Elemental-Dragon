@@ -4,8 +4,18 @@
             "text": "Water dash"
         },
         "description": {
-            "text": "You can make forward momentom in the water to give you a boost in your speed. [20 SP]",
-            "color": "aqua"
+            "text": "You can make forward momentum in the water to give you a boost in your speed using ",
+            "color": "aqua",
+            "extra": [
+              {
+                "keybind": "key.origins.quaternary_active",
+                "color": "aqua"
+              },
+              {
+                "text": ". [20 SP]",
+                "color": "aqua"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:water_bucket"

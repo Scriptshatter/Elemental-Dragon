@@ -138,8 +138,12 @@
         }
     },
     "modify_size": {
-        "type": "extraorigins:modify_size",
-        "scale": 0.5
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 0.5 @s"
+        },
+        "interval": 20
     },
     "first_skill": {
         "type": "origins:action_on_land",

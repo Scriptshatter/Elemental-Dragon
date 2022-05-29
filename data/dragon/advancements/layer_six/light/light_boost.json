@@ -4,8 +4,18 @@
             "text": "(boring) Light boost"
         },
         "description": {
-            "text": "With the power of light you can boost yourself into the air using Senary! The only downside is that this power is littarlly so boring that there is no downside. give me a break coming up with ideas for this many powers is hard >:( [15 SP]",
-            "color": "yellow"
+            "text": "With the power of light you can boost yourself into the air using ",
+            "color": "yellow",
+            "extra": [
+              {
+                "keybind": "key.origins.senary_active",
+                "color": "yellow"
+              },
+              {
+                "text": "! The only downside is that this power is littarlly so boring that there is no downside. give me a break coming up with ideas for this many powers is hard >:( [15 SP]",
+                "color": "yellow"
+              }
+            ]
         },
         "icon": {
             "item": "minecraft:glowstone"

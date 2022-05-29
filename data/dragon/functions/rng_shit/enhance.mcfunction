@@ -1,0 +1,1 @@
+execute as @e[predicate=dragon:is_dragon] store result score %num enhance_rng run loot spawn ~ ~ ~ loot dragon:rng_shit

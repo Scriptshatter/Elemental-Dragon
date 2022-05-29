@@ -23,6 +23,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/air",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
@@ -48,6 +54,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/dark",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
@@ -73,6 +85,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/earth",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
@@ -98,6 +116,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/fire",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
@@ -123,6 +147,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/light",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
@@ -148,6 +178,12 @@
                         "type": "origins:advancement",
                         "advancement": "dragon:base_skills/water",
                         "inverted": true
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "dragon:exp_base_limiter",
+                        "comparison": "!=",
+                        "compare_to": 2
                     }
                 ]
             },
