@@ -16,6 +16,10 @@
         },
         "cooldown": 6000,
         "hud_render": {
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "dragon:layer_six/water/luck_boost"
+            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
             "bar_index": 16
         }

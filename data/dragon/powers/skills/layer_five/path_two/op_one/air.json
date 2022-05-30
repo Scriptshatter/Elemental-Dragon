@@ -28,6 +28,10 @@
             ]
         },
         "hud_render": {
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "dragon:layer_five/path_two/op_one/air"
+            },
             "bar_index": 4
         },
         "condition": {

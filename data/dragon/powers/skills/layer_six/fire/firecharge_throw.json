@@ -46,6 +46,10 @@
             ]
         },
         "hud_render": {
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "dragon:layer_six/fire/firecharge_throw"
+            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 7
         }

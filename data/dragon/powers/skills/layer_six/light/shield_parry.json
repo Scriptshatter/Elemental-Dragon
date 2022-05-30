@@ -6,7 +6,11 @@
         "cooldown": 170000,
         "hud_render": {
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-            "bar_index": 20
+            "bar_index": 20,
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "dragon:layer_six/light/shield_parry"
+            }
         }
     },
     "enchant":{
