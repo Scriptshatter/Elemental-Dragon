@@ -2,18 +2,10 @@
     "type": "origins:multiple",
     "forward": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/fire/flame_dash"
-        },
         "key": {
             "key": "key.origins.septenary_active"
         },
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/fire/flame_dash"
-            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 7
         },

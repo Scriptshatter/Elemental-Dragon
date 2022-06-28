@@ -1,60 +1,18 @@
 {
     "type": "origins:multiple",
     "wings": {
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/air"
-        },
         "type": "origins:elytra_flight",
         "render_elytra": true
     },
     "no_fall_dmg":{
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/air"
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_three/air",
-                    "inverted": true
-                }
-            ]
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_three/air",
+            "inverted": true
         },
         "type": "origins:modify_falling",
         "take_fall_damage": false,
         "velocity": 0.08
-    },
-    "no_ceiling":{
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/air"
-                },
-                {
-                    "type": "origins:exposed_to_sky",
-                    "inverted": true
-                }
-            ]
-        },
-        "type": "origins:conditioned_attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.attack_damage",
-                "operation": "addition",
-                "value": -4
-            },
-            {
-                "attribute": "minecraft:generic.movement_speed",
-                "operation": "addition",
-                "value": -0.015
-            }
-        ],
-        "tick_rate": 5
     },
     "hidden": true
 }

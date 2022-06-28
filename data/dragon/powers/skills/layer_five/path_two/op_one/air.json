@@ -28,24 +28,12 @@
             ]
         },
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_five/path_two/op_one/air"
-            },
             "bar_index": 4
-        },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_five/path_two/op_one/air"
         },
         "cooldown": 250
     },
     "weak": {
         "type": "origins:modify_damage_taken",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_five/path_two/op_one/air"
-        },
         "modifier": {
             "operation": "addition",
             "value": 6

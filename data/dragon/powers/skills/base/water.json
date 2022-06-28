@@ -3,19 +3,10 @@
     "no_drown": {
         "type": "origins:action_over_time",
         "condition": {
-            "type":"origins:and",
-            "conditions":[
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/water"
-                },
-                {
-                    "type": "origins:fluid_height",
-                    "fluid": "minecraft:water",
-                    "comparison": "!=",
-                    "compare_to": 0
-                }
-            ]
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
         },
         "interval": 5,
         "entity_action": {
@@ -23,42 +14,7 @@
             "value": 20
         }
     },
-    "ew_where_water":{
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/water"
-                },
-                {
-                    "type": "origins:fluid_height",
-                    "fluid": "minecraft:water",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
-        },
-        "type": "origins:conditioned_attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.attack_damage",
-                "operation": "addition",
-                "value": -4
-            },
-            {
-                "attribute": "minecraft:generic.movement_speed",
-                "operation": "addition",
-                "value": -0.015
-            }
-        ],
-        "tick_rate": 5
-    },
     "wings": {
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/water"
-        },
         "type": "origins:elytra_flight",
         "render_elytra": true
     },

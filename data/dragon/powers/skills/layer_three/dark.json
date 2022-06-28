@@ -1,18 +1,10 @@
 {
     "type": "origins:multiple",
     "undead":{
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_three/dark"
-        },
         "type": "origins:entity_group",
         "group": "undead"
     },
     "immune_to_poisons":{
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_three/dark"
-        },
         "type": "origins:effect_immunity",
         "effects": [
             "minecraft:poison",

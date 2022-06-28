@@ -2,10 +2,6 @@
     "type": "origins:multiple",
     "effective_against_undead":{
         "type": "origins:modify_damage_dealt",
-        "condition":{
-            "type":"origins:advancement",
-            "advancement":"dragon:layer_three/light"
-        },
         "target_condition":{
             "type": "origins:entity_group",
             "group": "undead"
@@ -17,10 +13,6 @@
     },
     "bad_wither": {
         "type": "origins:modify_damage_taken",
-        "condition":{
-            "type":"origins:advancement",
-            "advancement":"dragon:layer_three/light"
-        },
         "damage_condition":{
             "type": "origins:or",
             "conditions": [

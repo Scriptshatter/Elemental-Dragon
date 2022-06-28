@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:add_velocity",
+        "z": 0.5
+    },
+    "condition": {
+        "type": "origins:advancement",
+        "advancement": "dragon:layer_five/path_two/op_two/fire",
+        "inverted": true
+    }
+}

@@ -2,18 +2,10 @@
     "type": "origins:multiple",
     "shoot": {
         "type": "origins:fire_projectile",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/dark/darkened_shards"
-        },
         "key": {
             "key": "key.origins.nonary_active"
         },
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/dark/darkened_shards"
-            },
             "bar_index": 14,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
         },
@@ -24,11 +16,7 @@
         "divergence": 30
     },
     "cursing_is_banned": {
-        "type": "origins:conditioned_attribute",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/dark/darkened_shards"
-        },
+        "type": "origins:attribute",
         "modifier": {
             "attribute": "minecraft:generic.max_health",
             "operation": "addition",

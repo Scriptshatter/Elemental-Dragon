@@ -1,18 +1,10 @@
 {
     "type": "origins:active_self",
-    "condition": {
-        "type": "origins:advancement",
-        "advancement": "dragon:layer_six/light/light_boost"
-    },
     "key": {
         "key": "key.origins.senary_active"
     },
     "cooldown": 2400,
     "hud_render": {
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/light/light_boost"
-        },
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
         "bar_index": 20
     },

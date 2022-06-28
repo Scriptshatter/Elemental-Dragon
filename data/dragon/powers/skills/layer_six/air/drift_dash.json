@@ -2,10 +2,6 @@
     "type": "origins:multiple",
     "forward": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/air/draft_dash"
-        },
         "key": {
             "key": "key.origins.quinary_active"
         },

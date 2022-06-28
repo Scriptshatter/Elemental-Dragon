@@ -6,11 +6,7 @@
         "cooldown": 170000,
         "hud_render": {
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-            "bar_index": 20,
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/light/shield_parry"
-            }
+            "bar_index": 20
         }
     },
     "enchant":{
@@ -18,10 +14,6 @@
         "condition": {
             "type": "origins:and",
             "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/light/shield_parry"
-                },
                 {
                     "type": "origins:resource",
                     "resource": "*:*_cooldown",
@@ -71,6 +63,10 @@
                     {
                         "type": "origins:trigger_cooldown",
                         "power": "*:*_cooldown"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "execute store result score @s enhance_rng run loot spawn ~ ~ ~ loot dragon:rng_shit"
                     }
                 ]
             }

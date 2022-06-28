@@ -2,10 +2,6 @@
     "type": "origins:multiple",
     "set_rain": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/air/atmospheric_manipulator"
-        },
         "key": {
             "key": "key.origins.quinary_active"
         },
@@ -53,18 +49,6 @@
         "cooldown": 1200,
         "hud_render": {
             "bar_index": 4
-        }
-    },
-    "no_swim": {
-        "type": "origins:conditioned_attribute",
-        "modifier": {
-            "attribute": "additionalentityattributes:water_speed",
-            "operation": "addition",
-            "value": -0.15
-        },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/air/atmospheric_manipulator"
         }
     },
     "hidden": true

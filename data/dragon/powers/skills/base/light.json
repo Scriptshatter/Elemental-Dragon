@@ -19,26 +19,13 @@
             ]
         },
         "condition":{
-            "type": "origins:and",
-            "conditions":[
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/light"
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_two/light",
-                    "inverted": true
-                }
-            ]
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_two/light",
+            "inverted": true
         }
     },
     "more_luck":{
-        "condition":{
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/light"
-        },
-        "type": "origins:conditioned_attribute",
+        "type": "origins:attribute",
         "modifier": {
             "attribute": "minecraft:generic.luck",
             "operation": "addition",
@@ -46,65 +33,8 @@
         }
     },
     "wings": {
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/light"
-        },
         "type": "origins:elytra_flight",
         "render_elytra": true
-    },
-    "bad_night":{
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/light"
-                },
-                {
-                    "type": "origins:daytime",
-                    "inverted": true
-                },
-                {
-                    "type": "origins:exposed_to_sky"
-                }
-            ]
-        },
-        "type": "origins:conditioned_attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.attack_damage",
-                "operation": "addition",
-                "value": -8
-            },
-            {
-                "attribute": "minecraft:generic.movement_speed",
-                "operation": "addition",
-                "value": -0.045
-            }
-        ],
-        "tick_rate": 5
-    },
-    "no_meat_pref":{
-        "type": "origins:modify_food",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/light",
-            "inverted": true
-        },
-        "item_condition": {
-            "type": "origins:meat"
-        },
-        "food_modifier": {
-            "name": "Increased food points",
-            "operation": "addition",
-            "value": 3.0
-        },
-        "saturation_modifier": {
-            "name": "Increased saturation points",
-            "operation": "addition",
-            "value": 10
-        }
     },
     "hidden": true
 }

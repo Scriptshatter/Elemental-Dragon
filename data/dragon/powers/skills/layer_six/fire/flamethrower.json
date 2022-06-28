@@ -5,18 +5,9 @@
         "continuous": true
     },
     "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/fire/flamethrower"
-            },
-            {
-                "type": "origins:food_level",
-                "comparison": "!=",
-                "compare_to": 0
-            }
-        ]
+        "type": "origins:food_level",
+        "comparison": "!=",
+        "compare_to": 0
     },
     "cooldown": 1,
     "entity_action": {

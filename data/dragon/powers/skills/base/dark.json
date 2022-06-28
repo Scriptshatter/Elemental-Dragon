@@ -17,10 +17,6 @@
                     "permission_level": 2
                 }
             ]
-        },
-        "condition":{
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/dark"
         }
     },
     
@@ -41,10 +37,6 @@
                     "permission_level": 2
                 }
             ]
-        },
-        "condition":{
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/dark"
         }
     },
     
@@ -65,80 +57,14 @@
                     "permission_level": 2
                 }
             ]
-        },
-        "condition":{
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/dark"
         }
     },
     "wings": {
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/dark"
-        },
         "type": "origins:elytra_flight",
         "render_elytra": true
     },
     "night_vision": {
-        "type": "origins:night_vision",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:base_skills/dark"
-        }
-    },
-    "bad_day": {
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/dark"
-                },
-                {
-                    "type": "origins:daytime"
-                },
-                {
-                    "type": "origins:exposed_to_sky"
-                }
-            ]
-        },
-        "type": "origins:conditioned_attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.attack_damage",
-                "operation": "addition",
-                "value": -8
-            },
-            {
-                "attribute": "minecraft:generic.movement_speed",
-                "operation": "addition",
-                "value": -0.045
-            }
-        ],
-        "tick_rate": 5
-    },
-    "no_see": {
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:base_skills/dark"
-                },
-                {
-                    "type": "origins:daytime"
-                },
-                {
-                    "type": "origins:exposed_to_sky"
-                }
-            ]
-        },
-        "type": "origins:overlay",
-        "draw_mode": "texture",
-        "draw_phase": "above_hud",
-        "visible_in_third_person": true,
-        "hide_with_hud": false,
-        "texture": "minecraft:textures/misc/white.png"
+        "type": "origins:night_vision"
     },
     "hidden": true
 }

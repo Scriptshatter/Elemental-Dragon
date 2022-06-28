@@ -1,0 +1,22 @@
+{
+    "condition":{
+        "type": "origins:command",
+        "command": "data get entity @s Pos[1]",
+        "comparison": "<",
+        "compare_to": 60
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -8
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.02
+        }
+    ],
+    "tick_rate": 5
+}

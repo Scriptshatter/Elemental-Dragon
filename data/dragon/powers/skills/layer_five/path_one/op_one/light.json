@@ -5,25 +5,12 @@
         "active_by_default": false,
         "key": {
             "key": "key.origins.senary_active"
-        },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_five/path_one/op_one/light"
         }
     },
     "aura": {
         "condition": {
-            "type":"origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_five/path_one/op_one/light"
-                },
-                {
-                    "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
-                }
-            ]
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
         },
         "type": "origins:action_over_time",
         "entity_action":{
@@ -34,10 +21,8 @@
                 "action": {
                     "type": "origins:if_else",
                     "condition": {
-
-                                "type": "origins:entity_type",
-                                "entity_type": "minecraft:player"
-
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:player"
                     },
                     "if_action": {
                         "type": "origins:and",
@@ -63,17 +48,8 @@
     },
     "particle_aura": {
         "condition": {
-            "type":"origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_five/path_one/op_one/light"
-                },
-                {
-                    "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
-                }
-            ]
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
         },
         "type": "origins:action_over_time",
         "entity_action":{
@@ -89,21 +65,12 @@
             },
             "offset_y": 0.1
         },
-        "interval": 1
+        "interval": 10
     },
     "particle_player": {
         "condition": {
-            "type":"origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_five/path_one/op_one/light"
-                },
-                {
-                    "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
-                }
-            ]
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
         },
         "type": "origins:particle",
         "particle": "minecraft:wax_off",
@@ -116,17 +83,8 @@
         "start_value": 1,
         "hud_render": {
             "condition": {
-                "type":"origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:advancement",
-                        "advancement": "dragon:layer_five/path_one/op_one/light"
-                    },
-                    {
-                        "type": "origins:power_active",
-                        "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
-                    }
-                ]
+                "type": "origins:power_active",
+                "power": "dragon:skills/layer_five/path_one/op_one/light_toggle"
             },
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
             "bar_index": 14

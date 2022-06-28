@@ -1,10 +1,6 @@
 {
     "type": "origins:multiple",
     "fiah_pawnch":{
-        "condition":{
-            "type":"origins:advancement",
-            "advancement":"dragon:layer_three/fire"
-        },
         "type": "origins:target_action_on_hit",
         "entity_action": {
             "type": "origins:set_on_fire",
@@ -14,21 +10,12 @@
     },
     "no_cold_biome":{
         "condition":{
-            "type":"origins:and",
-            "conditions":[
-                {
-                    "type":"origins:biome",
-                    "condition":{
-                        "type": "origins:temperature",
-                        "comparison": "<=",
-                        "compare_to": 0.3
-                    }
-                },
-                {
-                    "type":"origins:advancement",
-                    "advancement":"dragon:layer_three/fire"
-                }
-            ]
+            "type":"origins:biome",
+            "condition":{
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.3
+            }
         },
         "modifiers": [
             {

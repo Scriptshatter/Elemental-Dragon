@@ -17,10 +17,6 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/dark/in_the_shadows"
-                },
-                {
                     "type": "origins:on_fire",
                     "inverted": true
                 }
@@ -36,19 +32,10 @@
             "bar_index": 14,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
             "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:resource",
-                        "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
-                        "comparison": "!=",
-                        "compare_to": 300
-                    },
-                    {
-                        "type": "origins:advancement",
-                        "advancement": "dragon:layer_six/dark/in_the_shadows"
-                    }
-                ]
+                "type": "origins:resource",
+                "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                "comparison": "!=",
+                "compare_to": 300
             }
         }
     },
@@ -67,10 +54,6 @@
                 {
                     "type": "origins:power_active",
                     "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/dark/in_the_shadows"
                 },
                 {
                     "type": "origins:on_fire",
@@ -92,10 +75,6 @@
                 {
                     "type": "origins:power_active",
                     "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/dark/in_the_shadows"
                 },
                 {
                     "type": "origins:on_fire",
@@ -124,10 +103,6 @@
                     "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
                 },
                 {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/dark/in_the_shadows"
-                },
-                {
                     "type": "origins:on_fire",
                     "inverted": true
                 }
@@ -144,18 +119,9 @@
     "gain_resource": {
         "type": "origins:action_over_time",
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle",
-                    "inverted": true
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/dark/in_the_shadows"
-                }
-            ]
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle",
+            "inverted": true
         },
         "entity_action": {
             "type": "origins:change_resource",
@@ -182,10 +148,6 @@
                         "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
                     },
                     {
-                        "type": "origins:advancement",
-                        "advancement": "dragon:layer_six/dark/in_the_shadows"
-                    },
-                    {
                         "type": "origins:on_fire",
                         "inverted": true
                     }
@@ -203,7 +165,7 @@
         "interval": 5
     },
     "no_armor": {
-        "type": "origins:conditioned_restrict_armor",
+        "type": "origins:restrict_armor",
         "head": {
             "type": "origins:empty",
             "inverted": true
@@ -219,12 +181,7 @@
         "feet": {
             "type": "origins:empty",
             "inverted": true
-        },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/dark/in_the_shadows"
-        },
-        "tick_rate": 20
+        }
     },
     "hidden": true
 }

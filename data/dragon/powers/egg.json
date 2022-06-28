@@ -114,7 +114,6 @@
         },
         "interval": 1
     },
-    "hidden": true,
     "disable_move":{
         "type": "origins:attribute",
         "modifiers": [
@@ -141,7 +140,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "scale set pehkui:base 0.5 @s"
+            "command": "scale set extraorigins:modify_size 0.5 @s"
         },
         "interval": 20
     },
@@ -152,6 +151,12 @@
             "command": "function dragon:firstskill"
         }
     },
-    "name": "Rollin",
-    "description": "Sprint to roll! Fall off a surface to open a crack to hatch from!"
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/star.png",
+            "text": "This origin has 80 powers to choose from as you grow, which ones will you choose?"
+        }
+    ],
+    "name": "Starting",
+    "description": "The only way to move as an egg is to sprint. In order to hatch, you must land on a block. §f§lNOTE: All of the features of this origin only become avalable once you hatch. §r (Again, hatching is as simple as falling onto a block)"
 }

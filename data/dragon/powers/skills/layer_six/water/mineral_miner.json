@@ -2,10 +2,6 @@
     "type": "origins:multiple",
     "mining_buff": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/water/luck_boost"
-        },
         "key": {
             "key": "key.origins.quaternary_active"
         },
@@ -16,20 +12,12 @@
         },
         "cooldown": 6000,
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/water/luck_boost"
-            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
             "bar_index": 16
         }
     },
     "less_armor": {
-        "type": "origins:conditioned_attribute",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/water/luck_boost"
-        },
+        "type": "origins:attribute",
         "modifier": {
             "attribute": "minecraft:generic.attack_damage",
             "operation": "addition",

@@ -1,0 +1,169 @@
+{
+    "type": "origins:multiple",
+    "gravel": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_gravel",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "sss",
+                "sss",
+                "sss"
+            ],
+            "key":{
+                "s":{
+                    "tag": "minecraft:stone_tool_materials"
+                }
+            },
+            "result": {
+                "item": "minecraft:gravel",
+                "count": 9
+            }
+        }
+    },
+    "sand": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_sand",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "ggg",
+                "ggg",
+                "ggg"
+            ],
+            "key":{
+                "g":{
+                    "item": "minecraft:gravel"
+                }
+            },
+            "result": {
+                "item": "minecraft:sand",
+                "count": 9
+            }
+        }
+    },
+    "string":{
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_string",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "www",
+                "www",
+                "www"
+            ],
+            "key":{
+                "w":{
+                    "tag": "minecraft:occludes_vibration_signals"
+                }
+            },
+            "result": {
+                "item": "minecraft:string",
+                "count": 36
+            }
+        }
+    },
+    "more_prismarine":{
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_more_prismarine",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "ppp",
+                "ppp",
+                "ppp"
+            ],
+            "key":{
+                "p":{
+                    "item": "minecraft:prismarine_bricks"
+                }
+            },
+            "result": {
+                "item": "minecraft:prismarine_shard",
+                "count": 63
+            }
+        }
+    },
+    "less_prismarine":{
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_less_prismarine",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "ppp",
+                "ppp",
+                "ppp"
+            ],
+            "key":{
+                "p":{
+                    "item": "minecraft:prismarine"
+                }
+            },
+            "result": {
+                "item": "minecraft:prismarine_shard",
+                "count": 27
+            }
+        }
+    },
+    "more_crystals":{
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_more_crystals",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "sss",
+                "sss",
+                "sss"
+            ],
+            "key":{
+                "s":{
+                    "item": "minecraft:sea_lantern"
+                }
+            },
+            "result": {
+                "item": "minecraft:prismarine_crystals",
+                "count": 36
+            }
+        }
+    },
+    "less_crystals":{
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_less_crystals",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "apa",
+                "pap",
+                "apa"
+            ],
+            "key":{
+                "p":{
+                    "item": "minecraft:prismarine_shard"
+                },
+                "a":{
+                    "item": "minecraft:air"
+                }
+            },
+            "result": {
+                "item": "minecraft:prismarine_crystals",
+                "count": 4
+            }
+        }
+    },
+    "bone_meal": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:bone_meal",
+        "result": {
+            "item": "minecraft:bone_meal",
+            "amount": 6
+        }
+    },
+    "blaze_powder":{
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:blaze_powder",
+        "result": {
+            "item": "minecraft:blaze_powder",
+            "amount": 4
+        }
+    }
+}

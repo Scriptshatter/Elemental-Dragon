@@ -9,7 +9,28 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale set pehkui:base 1 @s"
+                "command": "scale set extraorigins:modify_size 1 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "function dragon:clear_skills"
+            }
+        ]
+    },
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "function dragon:skill_refresh"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute store result score @s enhance_rng run loot spawn ~ ~ ~ loot dragon:rng_shit"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "function dragon:size_refresh"
             }
         ]
     },

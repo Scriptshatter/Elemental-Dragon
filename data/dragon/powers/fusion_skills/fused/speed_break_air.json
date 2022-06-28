@@ -1,0 +1,26 @@
+{
+    "type":"origins:multiple",
+    "break_speed": {
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.2
+        }
+    },
+    "sound": {
+        "type": "origins:action_on_block_break",
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:ui.toast.in block @a ~ ~ ~ 1 2"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.4 0.4 0.4 0 50"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.luck",
+            "operation": "addition",
+            "value": -5
+        },
+        {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "addition",
+            "value": 0.2
+        }
+    ]
+}

@@ -3,18 +3,10 @@
     "float": {
         "type": "origins:modify_falling",
         "take_fall_damage": false,
-        "velocity": 0.03,
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_three/air"
-        }
+        "velocity": 0.03
     },
     "more_arrow_dmg": {
         "type": "origins:modify_damage_taken",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_three/air"
-        },
         "damage_condition": {
             "type": "origins:or",
             "conditions":[
@@ -30,7 +22,7 @@
         },
         "modifier": {
             "operation": "addition",
-            "value": 4
+            "value": 2
         }
     },
     "hidden": true

@@ -85,7 +85,7 @@
             },
             "offset_y": 0.1
         },
-        "interval": 1
+        "interval": 10
     },
     "particle_player": {
         "condition": {

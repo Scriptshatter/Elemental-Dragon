@@ -1,0 +1,22 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "power grant @s dragon:fusion_skills/fused/water_air_icy_effect"
+            },
+            {
+                "type":"origins:change_resource",
+                "operation": "set",
+                "resource": "dragon:fusion_skills/fused/water_air_icy_effect_cooldown",
+                "change": 1
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}

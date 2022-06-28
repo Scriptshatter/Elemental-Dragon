@@ -1,0 +1,8 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor_toughness",
+        "operation": "addition",
+        "value": 8
+    }
+}

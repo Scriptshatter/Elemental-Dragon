@@ -1,6 +1,9 @@
 {
     "powers": [
-        "dragon:egg"
+        "dragon:egg",
+        "dragon:how_to/open_menu",
+        "dragon:how_to/checking_skills",
+        "dragon:how_to/active_abilities"
     ],
     "icon": "minecraft:dragon_egg",
     "order": 3,

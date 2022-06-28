@@ -4,10 +4,6 @@
         "type": "origins:cooldown",
         "cooldown": 100,
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/fire/rocket_jump"
-            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 7
         }
@@ -22,10 +18,6 @@
                     "resource": "*:*_cooldown",
                     "comparison": "==",
                     "compare_to": 0
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/rocket_jump"
                 },
                 {
                     "type": "origins:raycast",
@@ -78,10 +70,6 @@
                     "resource": "*:*_cooldown",
                     "comparison": ">=",
                     "compare_to": 95
-                },
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/rocket_jump"
                 },
                 {
                     "type": "origins:raycast",

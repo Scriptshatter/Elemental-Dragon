@@ -2,18 +2,10 @@
     "type": "origins:multiple",
     "brittle": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/dark/brittle_breaker"
-        },
         "key": {
             "key": "key.origins.nonary_active"
         },
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/dark/brittle_breaker"
-            },
             "bar_index": 14,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
         },
@@ -65,7 +57,7 @@
         }
     },
     "no_armor": {
-        "type": "origins:conditioned_restrict_armor",
+        "type": "origins:restrict_armor",
         "head": {
             "type": "origins:empty",
             "inverted": true
@@ -81,12 +73,7 @@
         "feet": {
             "type": "origins:empty",
             "inverted": true
-        },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/dark/brittle_breaker"
-        },
-        "tick_rate": 20
+        }
     },
     "hidden": true
 }

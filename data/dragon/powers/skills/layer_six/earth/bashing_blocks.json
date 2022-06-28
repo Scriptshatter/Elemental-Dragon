@@ -2,16 +2,8 @@
     "type": "origins:multiple",
     "bash": {
         "type": "origins:active_self",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/earth/bashing_blocks"
-        },
         "cooldown": 100,
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/earth/bashing_blocks"
-            },
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
             "bar_index": 3
         },
@@ -114,11 +106,7 @@
     },
     "hidden": true,
     "slower": {
-        "type": "origins:conditioned_attribute",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/earth/bashing_blocks"
-        },
+        "type": "origins:attribute",
         "modifier": {
             "attribute": "minecraft:generic.movement_speed",
             "operation": "addition",

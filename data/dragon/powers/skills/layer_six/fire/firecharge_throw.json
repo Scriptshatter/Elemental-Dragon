@@ -4,20 +4,11 @@
         "type": "origins:active_self",
         "cooldown": 1280,
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:advancement",
-                    "advancement": "dragon:layer_six/fire/firecharge_throw"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:smeltable"
-                    }
-                }
-            ]
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:smeltable"
+            }
         },
         "key": {
             "key": "key.origins.septenary_active"
@@ -46,10 +37,6 @@
             ]
         },
         "hud_render": {
-            "condition": {
-                "type": "origins:advancement",
-                "advancement": "dragon:layer_six/fire/firecharge_throw"
-            },
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 7
         }
@@ -60,18 +47,10 @@
             "type": "origins:material",
             "material": "wood"
         },
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/fire/firecharge_throw"
-        },
         "allow": false
     },
     "wood_effect": {
         "type": "origins:action_on_block_break",
-        "condition": {
-            "type": "origins:advancement",
-            "advancement": "dragon:layer_six/fire/firecharge_throw"
-        },
         "block_action": {
             "type": "origins:and",
             "actions": [

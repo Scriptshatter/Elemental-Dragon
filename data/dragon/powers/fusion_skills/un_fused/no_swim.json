@@ -1,0 +1,44 @@
+{
+    "type": "origins:multiple",
+    "no_swim": {
+        "type": "origins:ignore_water"
+    },
+    "slower_mining_underwater":{
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.7
+        }
+    },
+    "slower_underwater":{
+        "type": "origins:attribute",
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.06
+        }
+    },
+    "floaty_jump_underwater":{
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.01
+    }
+}
