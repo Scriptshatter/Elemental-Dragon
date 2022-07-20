@@ -17,7 +17,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",
@@ -48,7 +48,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",
@@ -79,7 +79,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",
@@ -110,7 +110,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",
@@ -141,7 +141,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",
@@ -172,7 +172,7 @@
                         "type": "origins:resource",
                         "resource": "dragon:exp_skill_points",
                         "comparison": ">=",
-                        "compare_to": 50
+                        "compare_to": 25
                     },
                     {
                         "type": "origins:advancement",

@@ -1,4 +1,4 @@
-resource change @s dragon:exp_skill_points -50
+resource change @s dragon:exp_skill_points -25
 advancement grant @s only dragon:base_skills/air
 power grant @s dragon:skills/base/air
 advancement revoke @s only dragon:inform
