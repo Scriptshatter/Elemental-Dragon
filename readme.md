@@ -229,19 +229,25 @@ Dark:
 # F. A. Q.
 
 > I like this origin, but I don't like the prospect of hatching or I want the dragon to come from something else.
+
 The switch from dragon is from running the function dragon:firstskill. plug that into where ever the change takes place, and you're good to go. just remember to set the egg origin to hiddin by going into Data -> Dragon -> origins -> egg and adding "hidden":true inside the brackets. 
 
 > Why does the dragon use advancements?
+
 The alternitive (using a chest UI) is much harder, looks worse, and advancements help track what skills you have.
 
 > Im scared of using two skills that counter eachother (like fire and water). are they going break eachother?
+
 No, but I'm not gonna tell you what happens, just know that its intentional ;)
 
 > I switched to dragon VIA commands and now nothing's working! what happened??
+
 The dragon uses the function dragon:firstskill to properly switch. if that function is not run, the origin does not work.
 
 > I want to use your code in my own origin, may I?
+
 Yes! Please! I made this origin to inspire other people! Go wild! make what ever you want, even if you think you can't, you can! keep trying, and make more things that you want to make. Don't stop.
 
 > Why did you make an origin like this?
+
 I made this origin to try and inspire people to make what they want to make, to show that anything is possible if you put your mind to it. Im just some scrappy 16 year old sitting in his basment with a floor LITTERALLY COVERED IN SHIT (might be a slight hyperbole :/) and I made this. I a person like me can make something like this, you can make something better. all you have to do is try.
