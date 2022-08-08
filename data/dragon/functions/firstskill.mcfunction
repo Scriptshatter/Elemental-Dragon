@@ -1,5 +1,5 @@
 origin set @s origins:origin dragon:dragon
-resource change @s dragon:exp_skill_points 25
+resource change @s dragon:exp_skill_points 30
 advancement grant @s only dragon:root
 advancement grant @s only dragon:inform
 origin gui @s origins:base

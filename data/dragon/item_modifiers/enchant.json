@@ -1,15 +1,7 @@
 [
     {
-      "function": "minecraft:set_attributes",
-      "modifiers": [
-        {
-          "attribute": "minecraft:generic.attack_knockback",
-          "name": "Check zone 2",
-          "amount": 3,
-          "operation": "addition",
-          "slot": "mainhand"
-        }
-      ],
+      "function": "minecraft:set_nbt",
+      "tag": "{\"checkzonetwo\": 1b}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -17,36 +9,20 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "nbt": "{AttributeModifiers:[{Name:\"Check zone 1\"}]}"
+                "nbt": "{\"checkzoneone\": 1b}"
               }
             }
           }
         }
       ]
+    },    
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{\"checkzonezero\": 1b}"
     },
     {
-      "function": "minecraft:set_attributes",
-      "modifiers": [
-        {
-          "attribute": "minecraft:generic.attack_knockback",
-          "name": "Check zone 0",
-          "amount": 1,
-          "operation": "addition",
-          "slot": "mainhand"
-        }
-      ]
-    },
-    {
-      "function": "minecraft:set_attributes",
-      "modifiers": [
-        {
-          "attribute": "minecraft:generic.attack_knockback",
-          "name": "Check zone 1",
-          "amount": 2,
-          "operation": "addition",
-          "slot": "mainhand"
-        }
-      ],
+      "function": "minecraft:set_nbt",
+      "tag": "{\"checkzoneone\": 1b}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -54,13 +30,15 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "nbt": "{AttributeModifiers:[{Name:\"Check zone 0\"}]}"
+                "nbt": "{\"checkzonezero\": 1b}"
               }
             }
           }
         }
       ]
     },
+
+
     {
       "function": "minecraft:set_nbt",
       "tag": "{HideFlags:2}"

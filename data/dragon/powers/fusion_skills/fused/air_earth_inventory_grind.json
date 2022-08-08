@@ -132,16 +132,13 @@
             "id": "dragon:fusion_skills/fused/air_earth_inventory_grind_less_crystals",
             "type": "minecraft:crafting_shaped",
             "pattern": [
-                "apa",
-                "pap",
-                "apa"
+                " p ",
+                "p p",
+                " p "
             ],
             "key":{
                 "p":{
                     "item": "minecraft:prismarine_shard"
-                },
-                "a":{
-                    "item": "minecraft:air"
                 }
             },
             "result": {

@@ -36,15 +36,10 @@
                 },
                 {
                     "type": "origins:exposed_to_sky"
-                },
-                {
-                    "type": "origins:status_effect",
-                    "effect": "minecraft:night_vision",
-                    "inverted": true
                 }
             ]
         },
         "type": "origins:shader",
-        "shader": "minecraft:shaders/post/sobel.json"
+        "shader": "minecraft:shaders/post/blobs2.json"
     }
 }

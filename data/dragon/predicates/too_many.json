@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{AttributeModifiers:[{Name:\"Check zone 2\"}]}"
+          "nbt": "{\"checkzonetwo\": 1b}"
         }
       }
     }
