@@ -189,7 +189,7 @@ Light:
 Dark:
 - Base Skill
   - Night vision
-  - Literally cant see at all when exposed to the sun (Counter with night vision)
+  - Vision is blurry when exposed to sun
   - Villagers give crap deals
   - Iron golems auto-agro
 - Skill 1
