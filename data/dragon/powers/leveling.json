@@ -53,7 +53,7 @@
             "type": "origins:execute_command",
             "command": "resource operation @s dragon:exp_exp += @s enemy_health"
         },
-        "cooldown": 1
+        "cooldown": 200
     },
     "hidden": true
 }

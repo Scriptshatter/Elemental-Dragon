@@ -18,11 +18,10 @@
         }
     },
     "less_armor": {
-        "type": "origins:attribute",
+        "type": "origins:modify_damage_taken",
         "modifier": {
-            "attribute": "minecraft:generic.armor",
-            "operation": "addition",
-            "value": -4
+            "operation": "multiply_total",
+            "value": 1
         }
     },
     "hidden": true

@@ -44,11 +44,7 @@
                 }
             ]
         },
-        "type": "origins:overlay",
-        "draw_mode": "texture",
-        "draw_phase": "above_hud",
-        "visible_in_third_person": true,
-        "hide_with_hud": false,
-        "texture": "minecraft:textures/misc/white.png"
+        "type": "origins:shader",
+        "shader": "minecraft:shaders/post/sobel.json"
     }
 }

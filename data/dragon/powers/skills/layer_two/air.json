@@ -1,15 +1,20 @@
 {
-    "type": "origins:attribute",
-    "modifiers": [
-        {
-            "attribute": "minecraft:generic.movement_speed",
-            "operation": "addition",
-            "value": 0.02
-        },
-        {
-            "attribute": "minecraft:generic.armor",
-            "operation": "addition",
-            "value": -2
+    "type": "origins:multiple",
+    "movement": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.02
+            }
+        ]
+    },
+    "damage": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.5
         }
-    ]
+    }
 }
