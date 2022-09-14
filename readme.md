@@ -6,17 +6,17 @@
 ## Extra origins for fabric
 ## Extra origins keybinds
 
-# What is the dragon origin?
+# What is the Elemental Dragon?
 
-The dragon origin is my attempt at trying to break the limits of what an origin can actually be, I mean there are evolving origins and some origins that can up, but there's no real **choice** in those. The only choosing you get to do is choosing to play them, which can be a real problem if you want to switch mid-way and there's no orbs, or if you like the *idea* of the origin but just dont like the *powers*. This solves that by putting the making of the origin into your hands. It does this by giving you the ability to make the origin as you play.
+The Elemental Dragon is my attempt at trying to break the limits of what an origin can actually be, I mean there are evolving origins and some origins that can up, but there's no real **choice** in those. The only choosing you get to do is choosing to play them, which can be a real problem if you want to switch mid-way and there's no orbs, or if you like the *idea* of the origin but just dont like the *powers*. This solves that by putting the making of the origin into your hands. It does this by giving you the ability to make the origin as you play.
 
 # What skills are on the skill tree?
 
 I'm glad you asked! with 74 diffrent skills in the origin, you may be wondering what the best choice for you is.
 
 Every base skill:
-- Diatary needs (Every dragon but light is a carnivore.)
-- Wings to fly (Every dragon but earth has free elytra)
+- Diatary needs (Every Element but light is a carnivore.)
+- Wings to fly (Every Element but earth has free elytra)
 
 Fire:
 - Base Skill
@@ -229,11 +229,11 @@ Dark:
 
 # F. A. Q.
 
-> I like this origin, but I don't like the prospect of hatching or I want the dragon to come from something else.
+> I like this origin, but I don't like the prospect of hatching or I want the Dragon to come from something else.
 
-The switch from dragon is from running the function dragon:firstskill. plug that into where ever the change takes place, and you're good to go. just remember to set the egg origin to hiddin by going into Data -> Dragon -> origins -> egg and adding "hidden":true inside the brackets. 
+The switch from the egg is from running the function dragon:firstskill. plug that into where ever the change takes place, and you're good to go. just remember to set the egg origin to hiddin by going into Data -> Dragon -> origins -> egg and adding "hidden":true inside the brackets. 
 
-> Why does the dragon use advancements?
+> Why does the Elemental Dragon use advancements?
 
 The alternitive (using a chest UI) is much harder, looks worse, and advancements help track what skills you have.
 
@@ -241,9 +241,9 @@ The alternitive (using a chest UI) is much harder, looks worse, and advancements
 
 No, but I'm not gonna tell you what happens, just know that its intentional ;)
 
-> I switched to dragon VIA commands and now nothing's working! what happened??
+> I switched to the Elemental Dragon VIA commands and now nothing's working! what happened??
 
-The dragon uses the function dragon:firstskill to properly switch. if that function is not run, the origin does not work.
+The Elemental Dragon uses the function dragon:firstskill to properly switch. if that function is not run, the origin does not work.
 
 > I want to use your code in my own origin, may I?
 
