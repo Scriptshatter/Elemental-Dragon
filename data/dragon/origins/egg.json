@@ -3,7 +3,8 @@
         "dragon:egg",
         "dragon:how_to/open_menu",
         "dragon:how_to/checking_skills",
-        "dragon:how_to/active_abilities"
+        "dragon:how_to/active_abilities",
+        "dragon:how_to/perks_and_quirks"
     ],
     "icon": "minecraft:dragon_egg",
     "order": 3,
