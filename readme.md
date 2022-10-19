@@ -6,6 +6,8 @@
 ## Extra origins for fabric
 ## Extra origins keybinds
 
+### Made for 1.18.1 and above, mods needed should be for that version or above.
+
 # What is the Elemental Dragon?
 
 The Elemental Dragon is my attempt at trying to break the limits of what an origin can actually be, I mean there are evolving origins and some origins that can up, but there's no real **choice** in those. The only choosing you get to do is choosing to play them, which can be a real problem if you want to switch mid-way and there's no orbs, or if you like the *idea* of the origin but just dont like the *powers*. This solves that by putting the making of the origin into your hands. It does this by giving you the ability to make the origin as you play.
