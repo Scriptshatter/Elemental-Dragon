@@ -15,6 +15,11 @@
         "modifier": {
             "operation": "multiply_total",
             "value": 0.5
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "dragon:layer_six/fire/flame_dash",
+            "inverted": true
         }
     }
 }
