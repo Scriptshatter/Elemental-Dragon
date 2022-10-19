@@ -17,7 +17,7 @@ The Elemental Dragon is my attempt at trying to break the limits of what an orig
 I'm glad you asked! with 74 diffrent skills in the origin, you may be wondering what the best choice for you is.
 
 Every base skill:
-- Diatary needs (Every Element but light is a carnivore.)
+- Dietary needs (Every Element but light is a carnivore.)
 - Wings to fly (Every Element but earth has free elytra)
 
 Fire:
@@ -25,7 +25,7 @@ Fire:
   - Fire Immune
   - Weak to water
 - Skill 1
-  - Increaced Attack
+  - Increased Attack
 - Skill 2
   - Faster Attack Speed
   - Less armor
