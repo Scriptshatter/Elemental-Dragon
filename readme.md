@@ -3,8 +3,6 @@
 ## Minecraft origins for fabric
 ## Fabric API
 ## Pehkui for Fabric
-## Extra origins for fabric
-## Extra origins keybinds
 
 ### Made for 1.18.1 and above, mods needed should be for that version or above.
 

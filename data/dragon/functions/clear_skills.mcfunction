@@ -89,3 +89,9 @@ power remove @s dragon:fusion_skills/un_fused/no_swim_air
 power remove @s dragon:fusion_skills/fused/water_air_icy
 power remove @s dragon:fusion_skills/fused/mud
 power remove @s dragon:fusion_skills/un_fused/no_swim
+power remove @s dragon:skills/gui_shit/air
+power remove @s dragon:skills/gui_shit/dark
+power remove @s dragon:skills/gui_shit/earth
+power remove @s dragon:skills/gui_shit/fire
+power remove @s dragon:skills/gui_shit/light
+power remove @s dragon:skills/gui_shit/water
