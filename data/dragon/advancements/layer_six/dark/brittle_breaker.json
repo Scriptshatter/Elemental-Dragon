@@ -4,18 +4,8 @@
             "text": "Brittle Breaker"
         },
         "description": {
-            "text": "By pressing ",
-            "color": "black",
-            "extra": [
-              {
-                "keybind": "key.origins.nonary_active",
-                "color": "black"
-              },
-              {
-                "text": ", you can make your opponents armor crumble as if it were made of glass, but wearing armor yourself has become impossible. [20 SP]",
-                "color": "black"
-              }
-            ]
+            "text": "You can make your opponents armor crumble as if it were made of glass, but wearing armor yourself has become impossible. [20 SP]",
+            "color": "black"
         },
         "icon": {
             "item": "minecraft:black_concrete"

@@ -1,5 +1,5 @@
 {
     "type":"origins:simple",
     "name": "Active abilities",
-    "description": "Did you forget what button to press to use your ability? well heres a list of every element and what key its abilities use: Air: Quinary; Earth: Secondary; Fire: Septenary; Water: Quaternary; Light: Senary; Dark: Nonary."
+    "description": "Your primary element's ability uses Primary, your secondary uses Secondary. What your primary element is is displayed above your DXP bar (The blue bar with a blue arrow)."
 }

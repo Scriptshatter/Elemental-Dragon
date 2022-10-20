@@ -4,18 +4,8 @@
             "text": "Furnace flames"
         },
         "description": {
-            "text": "You can smelt stuff in your offhand! Smelt with ",
-            "color": "red",
-            "extra": [
-              {
-                "keybind": "key.origins.septenary_active",
-                "color": "red"
-              },
-              {
-                "text": ". However, your hands now burn any wood that has not adapted to heat upon breaking it. [20 SP]",
-                "color": "red"
-              }
-            ]
+            "text": "You can smelt stuff in your offhand! However, your hands now burn any wood that has not adapted to heat upon breaking it. [20 SP]",
+            "color": "red"
         },
         "icon": {
             "item": "minecraft:blaze_powder"

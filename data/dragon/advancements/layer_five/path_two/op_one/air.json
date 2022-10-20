@@ -4,18 +4,8 @@
             "text": "Sudden gust"
         },
         "description": {
-            "text": "Gain the ability to cause a sudden gust of wind with ",
-            "color": "white",
-            "extra": [
-              {
-                "keybind": "key.origins.quinary_active",
-                "color": "white"
-              },
-              {
-                "text": " to boost you up! The catch is, in order to cause this your scales have become hollow, making them much more fragile. [20 SP]",
-                "color": "white"
-              }
-            ]
+            "text": "Gain the ability to cause a sudden gust of wind to boost you up! The catch is, in order to cause this your scales have become hollow, making them much more fragile. [20 SP]",
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:feather"

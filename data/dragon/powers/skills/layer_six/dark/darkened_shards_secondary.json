@@ -3,7 +3,7 @@
     "shoot": {
         "type": "origins:fire_projectile",
         "key": {
-            "key": "key.origins.nonary_active"
+            "key": "key.origins.secondary_active"
         },
         "hud_render": {
             "bar_index": 14,

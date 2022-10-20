@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "mining_buff": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action": {
+            "type": "origins:grant_power",
+            "power": "dragon:skills/layer_six/water/mining_speed",
+            "source": "apoli:command"
+        },
+        "cooldown": 6000,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 16
+        }
+    },
+    "less_armor": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -4
+        }
+    },
+    "hidden": true
+}

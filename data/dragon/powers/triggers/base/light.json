@@ -8,6 +8,19 @@
                 "command": "function dragon:triggers/base/light"
             },
             {
+                "type": "origins:if_else",
+                "condition": {
+                    "type" : "origins:resource",
+                    "resource": "dragon:exp_base_limiter",
+                    "compare_to": 0,
+                    "comparison": "=="
+                },
+                "if_action": {
+                    "type": "origins:execute_command",
+                    "command": "power grant @s dragon:skills/gui_shit/light"
+                }
+            },
+            {
                 "type": "origins:execute_command",
                 "command": "origin set @s origins:base dragon:none"
             },

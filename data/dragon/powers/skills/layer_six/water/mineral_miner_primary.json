@@ -3,7 +3,7 @@
     "mining_buff": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.quaternary_active"
+            "key": "key.origins.primary_active"
         },
         "entity_action": {
             "type": "origins:grant_power",

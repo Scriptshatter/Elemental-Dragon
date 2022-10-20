@@ -1,0 +1,47 @@
+{
+    "type": "origins:multiple",
+    "forward": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 7
+        },
+        "cooldown": 600,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "power grant @s dragon:skills/layer_six/fire/dash"
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:flame",
+                    "count": 16,
+                    "speed": 0.0,
+                    "force": true,
+                    "spread": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.firecharge.use"
+                }
+            ]
+        }
+    },
+    "weaker":{
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    },
+    "hidden": true
+}

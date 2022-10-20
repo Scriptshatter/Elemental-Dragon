@@ -48,7 +48,7 @@
                     },
                     {
                         "type": "origins:advancement",
-                        "advancement": "dragon:layer_six/air/draft_dash",
+                        "advancement": "dragon:layer_six/air/drift_dash",
                         "inverted": true
                     },
                     {
@@ -58,7 +58,7 @@
                 ]
             },
             "origins": [
-                "dragon:skills/layer_six/air/draft_dash"
+                "dragon:skills/layer_six/air/drift_dash"
             ]
         },
         {

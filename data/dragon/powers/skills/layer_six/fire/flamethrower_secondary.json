@@ -1,7 +1,7 @@
 {
     "type": "origins:active_self",
     "key": {
-        "key": "key.origins.septenary_active",
+        "key": "key.origins.secondary_active",
         "continuous": true
     },
     "condition": {

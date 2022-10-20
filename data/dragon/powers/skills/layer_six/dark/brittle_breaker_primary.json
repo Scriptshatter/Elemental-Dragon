@@ -3,7 +3,7 @@
     "brittle": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.nonary_active"
+            "key": "key.origins.primary_active"
         },
         "hud_render": {
             "bar_index": 14,

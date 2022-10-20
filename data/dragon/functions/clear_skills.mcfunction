@@ -56,7 +56,7 @@ power remove @s dragon:skills/layer_five/path_two/op_two/fire
 power remove @s dragon:skills/layer_five/path_two/op_two/light
 power remove @s dragon:skills/layer_five/path_two/op_two/water
 power remove @s dragon:skills/layer_six/air/atmospheric_manipulator
-power remove @s dragon:skills/layer_six/air/draft_dash
+power remove @s dragon:skills/layer_six/air/drift_dash
 power remove @s dragon:skills/layer_six/dark/brittle_breaker
 power remove @s dragon:skills/layer_six/dark/darkened_shards
 power remove @s dragon:skills/layer_six/dark/in_the_shadows
@@ -64,14 +64,14 @@ power remove @s dragon:skills/layer_six/earth/bashing_blocks
 power remove @s dragon:skills/layer_six/earth/hoarder
 power remove @s dragon:skills/layer_six/earth/mineral_miner
 power remove @s dragon:skills/layer_six/fire/firecharge_throw
-power remove @s dragon:skills/layer_six/fire/draft_dash
+power remove @s dragon:skills/layer_six/fire/drift_dash
 power remove @s dragon:skills/layer_six/fire/flamethrower
 power remove @s dragon:skills/layer_six/fire/rocket_jump
 power remove @s dragon:skills/layer_six/light/light_boost
 power remove @s dragon:skills/layer_six/light/shield_parry
 power remove @s dragon:skills/layer_six/water/bubble_blower
 power remove @s dragon:skills/layer_six/water/mineral_miner
-power remove @s dragon:skills/layer_six/water/draft_dash
+power remove @s dragon:skills/layer_six/water/drift_dash
 power remove @s dragon:fusion_skills/diet_stuff
 power remove @s dragon:fusion_skills/light_food
 power remove @s dragon:fusion_skills/fused/dusk_dawn_buff

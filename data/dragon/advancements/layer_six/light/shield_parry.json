@@ -4,18 +4,8 @@
             "text": "Shining Hands"
         },
         "description": {
-            "text": "By pressing ",
-            "color": "yellow",
-            "extra": [
-              {
-                "keybind": "key.origins.senary_active",
-                "color": "yellow"
-              },
-              {
-                "text": " you can enchant any item in your main hand! [25 SP]",
-                "color": "yellow"
-              }
-            ]
+            "text": "You can enhance any item in your main hand! [25 SP]",
+            "color": "yellow"
         },
         "icon": {
             "item": "minecraft:glowstone"

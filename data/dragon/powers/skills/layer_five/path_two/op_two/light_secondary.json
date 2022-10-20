@@ -4,7 +4,7 @@
         "type": "origins:toggle",
         "active_by_default": false,
         "key": {
-            "key": "key.origins.senary_active"
+            "key": "key.origins.secondary_active"
         },
         "condition": {
             "type": "origins:advancement",
@@ -21,7 +21,7 @@
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_two/op_two/light_toggle"
+                    "power": "dragon:skills/layer_five/path_two/op_two/light_secondary_toggle"
                 }
             ]
         },
@@ -67,7 +67,7 @@
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_two/op_two/light_toggle"
+                    "power": "dragon:skills/layer_five/path_two/op_two/light_secondary_toggle"
                 }
             ]
         },
@@ -97,7 +97,7 @@
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_five/path_two/op_two/light_toggle"
+                    "power": "dragon:skills/layer_five/path_two/op_two/light_secondary_toggle"
                 }
             ]
         },
@@ -120,7 +120,7 @@
                     },
                     {
                         "type": "origins:power_active",
-                        "power": "dragon:skills/layer_five/path_two/op_two/light_toggle"
+                        "power": "dragon:skills/layer_five/path_two/op_two/light_secondary_toggle"
                     }
                 ]
             },

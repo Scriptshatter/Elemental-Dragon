@@ -1,0 +1,94 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "aura": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_secondary_toggle"
+        },
+        "type": "origins:action_over_time",
+        "entity_action":{
+            "type": "origins:area_of_effect",
+            "radius": 4,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:player"
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "power grant @s dragon:skills/layer_five/path_one/op_one/resistance_wo_resistance"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "dragon:skills/layer_five/path_one/op_one/resistance_wo_resistance_cooldown",
+                                "change": 100
+                            }
+                        ]
+                    },
+                    "else_action": {
+                        "type": "origins:nothing"
+                    }
+                }
+            }
+        },
+        "interval": 20
+    },
+    "particle_aura": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_secondary_toggle"
+        },
+        "type": "origins:action_over_time",
+        "entity_action":{
+            "type": "origins:spawn_particles",
+            "particle": "minecraft:wax_off",
+            "count": 1000,
+            "speed": 0.5,
+            "force": true,
+            "spread": {
+                "x": 2.6,
+                "y": 0.0,
+                "z": 2.6
+            },
+            "offset_y": 0.1
+        },
+        "interval": 10
+    },
+    "particle_player": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dragon:skills/layer_five/path_one/op_one/light_secondary_toggle"
+        },
+        "type": "origins:particle",
+        "particle": "minecraft:wax_off",
+        "frequency": 1
+    },
+    "hud": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 7,
+        "start_value": 1,
+        "hud_render": {
+            "condition": {
+                "type": "origins:power_active",
+                "power": "dragon:skills/layer_five/path_one/op_one/light_secondary_toggle"
+            },
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+            "bar_index": 14
+        }
+    },
+    "hidden": true
+}

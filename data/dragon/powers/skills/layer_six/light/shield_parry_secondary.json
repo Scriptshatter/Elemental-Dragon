@@ -31,7 +31,7 @@
             ]
         },
         "key": {
-            "key": "key.origins.senary_active"
+            "key": "key.origins.secondary_active"
         },
         "entity_action": {
             "type": "origins:if_else",

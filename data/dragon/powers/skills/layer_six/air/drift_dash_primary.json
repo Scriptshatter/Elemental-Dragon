@@ -3,7 +3,7 @@
     "forward": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.quinary_active"
+            "key": "key.origins.primary_active"
         },
         "hud_render": {
             "bar_index": 4

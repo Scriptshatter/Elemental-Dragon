@@ -1,0 +1,79 @@
+{
+    "type": "origins:multiple",
+    "brittle": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "hud_render": {
+            "bar_index": 14,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
+        },
+        "cooldown": 72000,
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 16,
+            "hit_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "head",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 1000,
+                            "ignore_unbreaking": true
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "chest",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 1000,
+                            "ignore_unbreaking": true
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "legs",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 1000,
+                            "ignore_unbreaking": true
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "feet",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 1000,
+                            "ignore_unbreaking": true
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "no_armor": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "chest": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "legs": {
+            "type": "origins:empty",
+            "inverted": true
+        },
+        "feet": {
+            "type": "origins:empty",
+            "inverted": true
+        }
+    },
+    "hidden": true
+}

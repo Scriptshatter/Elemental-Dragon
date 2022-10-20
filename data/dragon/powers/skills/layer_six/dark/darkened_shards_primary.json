@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "shoot": {
+        "type": "origins:fire_projectile",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "hud_render": {
+            "bar_index": 14,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
+        },
+        "cooldown": 600,
+        "count": 10,
+        "entity_type": "minecraft:arrow",
+        "tag": "{CustomPotionEffects:[{Id:20b,Duration:100,Amplifier:1b}], pickup:0b}",
+        "divergence": 30
+    },
+    "cursing_is_banned": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -4
+        }
+    },
+    "hidden": true
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:multiple",
+    "inven": {
+        "type": "origins:inventory",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "title": "Hoarding pouch"
+    },
+    "slower": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.015
+        } 
+    },
+    "hidden": true
+}

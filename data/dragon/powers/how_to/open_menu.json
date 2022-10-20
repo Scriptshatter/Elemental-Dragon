@@ -1,8 +1,11 @@
 {
     "type": "origins:active_self",
+    "key": {
+        "key": "key.loadToolbarActivator"
+    },
     "entity_action": {
         "type": "origins:nothing"
     },
     "name": "Buying skills",
-    "description": "In order to buy skills, you need skill points. You can see your skill points above your inventory. In order to get skill points, you must fill the blue bar with a up arrow that is above your hunger. You can fill this bar up by killing monsters and mining blocks. Once the bar fills up you get 1 skill point. Once you have enough skill points, Open the menu with your primary to buy a skill. §f§lNOTE§r: Skills will only show up in the menu if you have §f§lenough skill points.§r"
+    "description": "In order to buy skills, you need skill points. You can see your skill points above your inventory. In order to get skill points, you must fill the blue bar with a up arrow that is above your hunger. You can fill this bar up by killing monsters and mining blocks. Once the bar fills up you get 1 skill point. Once you have enough skill points, Open the menu with Load Hotbar Activator to buy a skill. §f§lNOTE§r: Skills will only show up in the menu if you have §f§lenough skill points.§r"
 }

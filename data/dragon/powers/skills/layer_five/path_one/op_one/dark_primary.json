@@ -4,13 +4,13 @@
         "type": "origins:toggle",
         "active_by_default": false,
         "key": {
-            "key": "key.origins.nonary_active"
+            "key": "key.origins.primary_active"
         }
     },
     "aura": {
         "condition": {
             "type": "origins:power_active",
-            "power": "dragon:skills/layer_five/path_one/op_one/dark_toggle"
+            "power": "dragon:skills/layer_five/path_one/op_one/dark_primary_toggle"
         },
         "type": "origins:action_over_time",
         "entity_action":{
@@ -44,7 +44,7 @@
     "particle_aura": {
         "condition": {
             "type": "origins:power_active",
-            "power": "dragon:skills/layer_five/path_one/op_one/dark_toggle"
+            "power": "dragon:skills/layer_five/path_one/op_one/dark_primary_toggle"
         },
         "type": "origins:action_over_time",
         "entity_action":{
@@ -68,7 +68,7 @@
     "particle_player": {
         "condition": {
             "type": "origins:power_active",
-            "power": "dragon:skills/layer_five/path_one/op_one/dark_toggle"
+            "power": "dragon:skills/layer_five/path_one/op_one/dark_primary_toggle"
         },
         "type": "origins:particle",
         "particle": {
@@ -85,7 +85,7 @@
         "hud_render": {
             "condition": {
                 "type": "origins:power_active",
-                "power": "dragon:skills/layer_five/path_one/op_one/dark_toggle"
+                "power": "dragon:skills/layer_five/path_one/op_one/dark_primary_toggle"
             },
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
             "bar_index": 10

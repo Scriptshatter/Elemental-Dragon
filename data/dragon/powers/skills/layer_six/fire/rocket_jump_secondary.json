@@ -1,0 +1,97 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 100,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 7
+        }
+    },
+    "explosion": {
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:raycast",
+                    "entity": false,
+                    "distance": 5
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions":[
+                {
+                    "type": "origins:raycast",
+                    "distance": 5,
+                    "block_action": {
+                        "type": "origins:explode",
+                        "power": 5,
+                        "destruction_type": "none",
+                        "create_fire": false,
+                        "damage_self": true
+                    }
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 10,
+                    "source": {
+                        "name": "explosion"
+                    }
+                }
+            ]
+        }
+    },
+    "boost": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.septenary_active"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 95
+                },
+                {
+                    "type": "origins:raycast",
+                    "entity": false,
+                    "distance": 7
+                },
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[nbt={OnGround:false}]",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "entity_action":{
+            "type": "origins:add_velocity",
+            "z": -3,
+            "space": "local"
+        }
+    },
+    "hidden": true
+}

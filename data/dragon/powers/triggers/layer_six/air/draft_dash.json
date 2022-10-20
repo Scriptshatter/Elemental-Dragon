@@ -5,7 +5,7 @@
         "actions":[
             {
                 "type": "origins:execute_command",
-                "command": "function dragon:triggers/layer_six/air/draft_dash"
+                "command": "function dragon:triggers/layer_six/air/drift_dash"
             },
             {
                 "type": "origins:execute_command",

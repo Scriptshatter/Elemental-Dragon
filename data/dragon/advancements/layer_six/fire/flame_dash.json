@@ -4,18 +4,8 @@
             "text": "Flame Dash"
         },
         "description": {
-            "text": "You can do a powerful dash that leaves fire on the ground! however, doing this has left more scales exposed, lowering your defence. activate with ",
-            "color": "red",
-            "extra": [
-              {
-                "keybind": "key.origins.septenary_active",
-                "color": "red"
-              },
-              {
-                "text": ". [20 SP]",
-                "color": "red"
-              }
-            ]
+            "text": "You can do a powerful dash that leaves fire on the ground! however, doing this has left more scales exposed, lowering your defence. [20 SP]",
+            "color": "red"
         },
         "icon": {
             "item": "minecraft:blaze_powder"

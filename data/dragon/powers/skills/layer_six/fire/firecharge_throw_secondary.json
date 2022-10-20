@@ -1,0 +1,74 @@
+{
+    "type": "origins:multiple",
+    "smelt_in_hand": {
+        "type": "origins:active_self",
+        "cooldown": 1280,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:smeltable"
+            }
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "offhand",
+                    "action": {
+                        "type": "origins:modify",
+                        "modifier": "dragon:smelt"
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.fire.extinguish",
+                    "pitch": 2
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:flame",
+                    "count": 50
+                }
+            ]
+        },
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 7
+        }
+    },
+    "no_wood": {
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:material",
+            "material": "wood"
+        },
+        "allow": false
+    },
+    "wood_effect": {
+        "type": "origins:action_on_block_break",
+        "block_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:flame ~ ~ ~ 0.4 0.4 0.4 0 50"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:block.fire.extinguish block @a ~ ~ ~ 1 2"
+                }
+            ]
+        },
+        "block_condition": {
+            "type": "origins:material",
+            "material": "wood"
+        },
+        "only_when_harvested": false
+    },
+    "hidden": true
+}

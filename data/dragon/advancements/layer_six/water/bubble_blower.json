@@ -4,18 +4,8 @@
             "text": "Bubble Blower"
         },
         "description": {
-            "text": "You can blow bubbles around you to give your friends air to prevent them from drowning with ",
-            "color": "aqua",
-            "extra": [
-              {
-                "keybind": "key.origins.quaternary_active",
-                "color": "aqua"
-              },
-              {
-                "text": ". [15 SP]",
-                "color": "aqua"
-              }
-            ]
+            "text": "You can blow bubbles around you to give your friends air to prevent them from drowning. [15 SP]",
+            "color": "aqua"
         },
         "icon": {
             "item": "minecraft:water_bucket"

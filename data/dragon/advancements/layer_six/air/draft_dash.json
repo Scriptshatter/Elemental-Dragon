@@ -4,18 +4,8 @@
             "text": "Draft Dash"
         },
         "description": {
-            "text": "You can fling yourself forward in short bursts with ",
-            "color": "white",
-            "extra": [
-              {
-                "keybind": "key.origins.quinary_active",
-                "color": "white"
-              },
-              {
-                "text": " by creating a powerful draft behind you. Your demand for fresh air has increased drastically, however. [15 SP]",
-                "color": "white"
-              }
-            ]
+            "text": "You can fling yourself forward in short bursts by creating a powerful draft behind you. Your demand for fresh air has increased drastically, however. [15 SP]",
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:feather"

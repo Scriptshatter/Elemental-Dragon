@@ -11,7 +11,7 @@
             }
         },
         "key": {
-            "key": "key.origins.septenary_active"
+            "key": "key.origins.primary_active"
         },
         "entity_action": {
             "type": "origins:and",

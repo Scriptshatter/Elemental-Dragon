@@ -1,5 +1,8 @@
 {
     "type": "origins:active_self",
+    "key": {
+        "key": "key.loadToolbarActivator"
+    },
     "entity_action": {
         "type": "origins:execute_command",
         "command": "origin gui @s origins:base"

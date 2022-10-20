@@ -1,0 +1,75 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 170000,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 20
+        }
+    },
+    "enchant":{
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:empty",
+                        "inverted": true
+                    }
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:predicate",
+                "predicate": "dragon:too_many"
+            },
+            "if_action": {
+                "type": "origins:execute_command",
+                "command": "tellraw @s {\"text\":\"The item glows in your hand, then the glow fades. The item seems unchaned, however.\", \"color\": \"yellow\"}"
+            },
+            "else_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "item modify entity @s weapon.mainhand dragon:enchant"
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.player.levelup",
+                        "pitch": 2
+                    },
+                    {
+                        "type": "origins:spawn_particles",
+                        "particle": "minecraft:happy_villager",
+                        "count": 50
+                    },
+                    {
+                        "type": "origins:trigger_cooldown",
+                        "power": "*:*_cooldown"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "execute store result score @s enhance_rng run loot spawn ~ ~ ~ loot dragon:rng_shit"
+                    }
+                ]
+            }
+        }
+    }
+}

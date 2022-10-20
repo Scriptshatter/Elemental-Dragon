@@ -4,7 +4,7 @@
         "type": "origins:toggle",
         "active_by_default": false,
         "key": {
-            "key": "key.origins.nonary_active"
+            "key": "key.origins.secondary_active"
         },
         "retain_state": false,
         "condition": {
@@ -12,7 +12,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                     "comparison": "!=",
                     "compare_to": 0
                 },
@@ -33,7 +33,7 @@
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
             "condition": {
                 "type": "origins:resource",
-                "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                 "comparison": "!=",
                 "compare_to": 300
             }
@@ -47,13 +47,13 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                     "comparison": "!=",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_secondary_toggle"
                 },
                 {
                     "type": "origins:on_fire",
@@ -68,13 +68,13 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                     "comparison": "!=",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_secondary_toggle"
                 },
                 {
                     "type": "origins:on_fire",
@@ -94,13 +94,13 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                    "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                     "comparison": "!=",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:power_active",
-                    "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                    "power": "dragon:skills/layer_six/dark/in_the_shadows_secondary_toggle"
                 },
                 {
                     "type": "origins:on_fire",
@@ -111,7 +111,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+            "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
             "change": -10
         },
         "interval": 10
@@ -120,12 +120,12 @@
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:power_active",
-            "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle",
+            "power": "dragon:skills/layer_six/dark/in_the_shadows_secondary_toggle",
             "inverted": true
         },
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+            "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
             "change": 10
         },
         "interval": 20
@@ -139,13 +139,13 @@
                 "conditions": [
                     {
                         "type": "origins:resource",
-                        "resource": "dragon:skills/layer_six/dark/in_the_shadows_resource",
+                        "resource": "dragon:skills/layer_six/dark/in_the_shadows_secondary_resource",
                         "comparison": "!=",
                         "compare_to": 0
                     },
                     {
                         "type": "origins:power_active",
-                        "power": "dragon:skills/layer_six/dark/in_the_shadows_toggle"
+                        "power": "dragon:skills/layer_six/dark/in_the_shadows_secondary_toggle"
                     },
                     {
                         "type": "origins:on_fire",

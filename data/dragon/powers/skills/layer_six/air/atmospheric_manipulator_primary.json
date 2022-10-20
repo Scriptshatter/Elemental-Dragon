@@ -1,0 +1,55 @@
+{
+    "type": "origins:multiple",
+    "set_rain": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if predicate dragon:air/is_thundering",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "weather clear"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if predicate dragon:air/is_raining",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "weather thunder"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if predicate dragon:air/is_clear",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "weather rain"
+                    }
+                }
+            ]
+        },
+        "cooldown": 1200,
+        "hud_render": {
+            "bar_index": 4
+        }
+    },
+    "hidden": true
+}

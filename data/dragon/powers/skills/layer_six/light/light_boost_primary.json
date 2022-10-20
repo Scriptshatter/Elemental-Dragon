@@ -1,7 +1,7 @@
 {
     "type": "origins:active_self",
     "key": {
-        "key": "key.origins.senary_active"
+        "key": "key.origins.primary_active"
     },
     "cooldown": 2400,
     "hud_render": {

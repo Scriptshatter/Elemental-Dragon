@@ -1,0 +1,116 @@
+{
+    "type": "origins:multiple",
+    "bash": {
+        "type": "origins:active_self",
+        "cooldown": 100,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 3
+        },
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if entity @s[x_rotation=-90..-45]",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:raycast",
+                        "distance": 6,
+                        "shape_type": "outline",
+                        
+                        "block_action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:block_break/vertical"
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if entity @s[x_rotation=45..90]",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:raycast",
+                        "distance": 6,
+                        "shape_type": "outline",
+                        
+                        "block_action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:block_break/vertical"
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if entity @s[y_rotation=45.01..135]",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:raycast",
+                        "distance": 6,
+                        "shape_type": "outline",
+                        
+                        "block_action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:block_break/north_south"
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute if entity @s[y_rotation=-135..-45.01]",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:raycast",
+                        "distance": 6,
+                        "shape_type": "outline",
+                        
+                        "block_action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:block_break/north_south"
+                        }
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:constant",
+                        "value": true
+                    },
+                    "action": {
+                        "type": "origins:raycast",
+                        "distance": 6,
+                        "shape_type": "outline",
+                        
+                        "block_action": {
+                            "type": "origins:execute_command",
+                            "command": "function dragon:block_break/east_west"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "hidden": true,
+    "slower": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.015
+        } 
+    }
+}

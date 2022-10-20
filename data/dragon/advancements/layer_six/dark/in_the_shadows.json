@@ -4,18 +4,8 @@
             "text": "In the shadows"
         },
         "description": {
-            "text": "By pressing ",
-            "color": "black",
-            "extra": [
-              {
-                "keybind": "key.origins.nonary_active",
-                "color": "black"
-              },
-              {
-                "text": ", You can go completely invisible, and become invincible. You cant where armor anymore, however. This takes energy, however. [15 SP]",
-                "color": "black"
-              }
-            ]
+            "text": "You can go completely invisible, and become invincible. You cant where armor anymore, however. This takes energy, however. [15 SP]",
+            "color": "black"
         },
         "icon": {
             "item": "minecraft:black_concrete"

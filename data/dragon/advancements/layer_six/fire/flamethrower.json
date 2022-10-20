@@ -4,18 +4,8 @@
             "text": "Flamethrower breath"
         },
         "description": {
-            "text": "Some flamethrower crazy thing has gifted you with the power to spew flames! activate with ",
-            "color": "red",
-            "extra": [
-              {
-                "keybind": "key.origins.septenary_active",
-                "color": "red"
-              },
-              {
-                "text": ". Uses hunger. [25 SP]",
-                "color": "red"
-              }
-            ]
+            "text": "Some flamethrower crazy thing has gifted you with the power to spew flames! Uses hunger. [25 SP]",
+            "color": "red"
         },
         "icon": {
             "item": "minecraft:blaze_powder"

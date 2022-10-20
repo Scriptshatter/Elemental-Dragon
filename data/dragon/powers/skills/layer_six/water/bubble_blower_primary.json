@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "cooldown": 18000,
     "key": {
-        "key": "key.origins.quaternary_active"
+        "key": "key.origins.primary_active"
     },
     "entity_action": {
         "type": "origins:area_of_effect",

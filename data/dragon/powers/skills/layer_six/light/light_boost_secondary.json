@@ -1,0 +1,16 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "cooldown": 2400,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 20
+    },
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "y": 10
+    },
+    "hidden": true
+}
