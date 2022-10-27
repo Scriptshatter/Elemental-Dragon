@@ -1,19 +1,15 @@
 {
-    "type": "origins:action_over_time",
-    "interval": 10,
+    "hidden": true,
+    "type": "origins:active_self",
     "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:execute_command",
-                "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'minor_positive',Value:35}]}",
-                "permission_level": 2
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[advancements={dragon:layer_two/light=true}] UUID",
-                "permission_level": 2
-            }
-        ]
-    }
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "hero_of_the_village",
+            "duration": 40,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "cooldown": 10
 }
