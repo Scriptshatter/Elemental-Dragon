@@ -8,7 +8,7 @@
         },
         "modifier":{
             "operation": "addition",
-            "value": 5.0
+            "value": 10
         }
     },
     "bad_wither": {
