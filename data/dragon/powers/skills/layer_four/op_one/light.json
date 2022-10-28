@@ -1,8 +1,16 @@
 {
     "type": "origins:attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.armor",
-        "operation": "addition",
-        "value": 1
-    }
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 5
+        },
+        {
+            "attribute": "generic.armor_toughness",
+            "operation": "addition",
+            "value": 5
+        }
+    ],
+    "update_health": false
 }
