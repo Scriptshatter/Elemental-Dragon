@@ -2,18 +2,18 @@
     "type": "origins:multiple",
     "villager_thank":{
         "type": "origins:action_over_time",
-        "interval": 10,
+        "interval": 1200,
         "entity_action": {
             "type": "origins:and",
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'minor_positive',Value:25}]}",
+                    "command": "execute at @s as @e[type=villager,distance=..120] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_positive',Value:5}]}",
                     "permission_level": 2
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[advancements={dragon:base_skills/light=true}] UUID",
+                    "command": "execute at @e[type=villager,distance=..120] run data modify entity @e[type=villager,distance=..120,limit=1] Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[advancements={dragon:base_skills/light=true}] UUID",
                     "permission_level": 2
                 }
             ]
