@@ -9,7 +9,7 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "title @s actionbar [{\"text\": \"Skill Points: \"},{\"score\":{\"objective\": \"skill_points\",\"name\": \"*\"}}]"
+                "command": "title @s actionbar [{\"text\": \"Skill Points: \"},{\"score\":{\"objective\": \"skill_points\",\"name\": \"@s\"}}]"
             }
         ]
     },
